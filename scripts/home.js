@@ -2,7 +2,7 @@
  * 首页脚本
  */
 
-(function() {
+(function () {
     /*图片切换*/
     var
         $slider = $('.slider'),
@@ -10,22 +10,23 @@
         $sliderItem = $('a', $sliderContent),
         $slideTrigger = $('<div class="slider-trigger"></div>'),
         sliderTimer,
-        autoSlide = function() {
+        autoSlide = function () {
             if (sliderTimer) clearTimeout(sliderTimer);
             //自动播放
-            sliderTimer = setTimeout(function() {
+            sliderTimer = setTimeout(function () {
                 var $next = $('.active', $slideTrigger).next();
                 if ($next.length) {
                     $next.click();
-                } else {
+                }
+                else {
                     $('a', $slideTrigger).first().click();
                 }
             }, 5000);
         };
 
-    $sliderItem.each(function(i) {
-        (function($this, i) {
-            var $trigger = $('<a href="javascript:;"></a>').click(function() {
+    $sliderItem.each(function (i) {
+        (function ($this, i) {
+            var $trigger = $('<a href="javascript:;"></a>').click(function () {
                 if ($(this).is('.active')) {
                     return;
                 }
@@ -33,9 +34,7 @@
                 $(this).addClass('active').siblings().removeClass('active');
                 var $first = $('a', $sliderContent).first();
                 $first.after($this);
-                $sliderContent.animate({
-                    'margin-left': '-1099px'
-                }, 1000, function() {
+                $sliderContent.animate({ 'margin-left': '-1099px' }, 1000, function () {
                     $sliderContent.css('margin-left', '0');
                     $first.appendTo($(this));
                 });

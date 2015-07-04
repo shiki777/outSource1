@@ -79,8 +79,12 @@ body {
 .header .search-form,
 .header .search-form button,
 .header-nav-split,
+.shopping-cart .header-nav-link,
+.shopping-cart .header-nav-link i,
 .nav-split,
-.nav-housekeeper .nav-item-link {
+.nav-housekeeper .nav-item-link,
+.login-form .submit-panel button,
+.login-form label.error{
     background: url(../images/sprites.png);
     background-repeat: no-repeat;
 }
@@ -101,6 +105,8 @@ body {
 .header {
     background: url(../images/header.png);
     height: 133px;
+    position: relative;
+    z-index: 99999;
 }
 
 .header-inner {
@@ -159,6 +165,25 @@ body {
     font: 14px/14px '黑体';
 }
 
+.shopping-cart .header-nav-link {
+    padding-left: 25px;
+    background-position: -480px -30px;
+}
+
+.shopping-cart .header-nav-link em {
+    color: #f0c42f;
+    margin-left: 3px;
+}
+
+.shopping-cart .header-nav-link i {
+    background-position: -126px -17px;
+    width: 7px;
+    height: 4px;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
 .login {
     position: relative;
 }
@@ -166,10 +191,73 @@ body {
 .login-form {
     display: none;
     position: absolute;
+    background: url(../images/login-form.png) no-repeat 0 11px;
+    width: 288px;
+    padding-top: 60px;
+    height: 170px;
+    top: 14px;
+    left: -127px;
 }
 
 .login:hover .login-form {
     display: block;
+}
+
+.login-form-item {
+    margin-bottom: 15px;
+}
+
+.login-form-item .fl {
+    width: 100px;
+    text-align: right;
+    font-size: 16px;
+    font-family: '黑体';
+    color: #010101;
+}
+
+.login-form-item .fl input {
+    position: relative;
+    left: -9px;
+    top: -1px;
+}
+
+.login-form-item .txt {
+    width: 127px;
+    height: 20px;
+    line-height: 20px;
+    border: solid 1px #dcdcdc;
+}
+
+.login-form-item .txt:focus {
+    border-color: #62b187;
+}
+
+.login-form .submit-panel {
+    padding: 5px 0 0 45px;
+}
+
+.login-form .submit-panel a {
+    margin-right: 40px;
+    color: #717171;
+}
+
+.login-form .submit-panel button {
+    border: 0 none;
+    width: 75px;
+    height: 27px;
+    color: #fff;
+    font-size: 16px;
+    font-family: '黑体';
+    background-position: -1px -106px;
+    cursor: pointer;
+}
+
+.login-form label.error {
+    background-position: -182px -2px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 9px;
 }
 
 /*尾部*/
@@ -201,7 +289,7 @@ body {
     height: 32px;
     margin-bottom: 9px;
     position: relative;
-    z-index: 1;
+    z-index: 9999;
 }
 
 .nav-inner {
@@ -319,4 +407,19 @@ body {
 
 .sub-nav-col-2ss .clearfix {
     background: url(../images/sub-nav-line-ss.png) no-repeat center;
+}
+
+/*面包屑*/
+.trail {
+    height: 31px;
+    line-height: 29px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    margin: 0 57px;
+    padding-left: 2px;
+    color: #000;
+}
+
+.crumb-arrow {
+    margin: 0 6px;
 }

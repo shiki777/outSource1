@@ -63,9 +63,70 @@
 	width: 250px;
 }
 
+.register-input:focus{
+    border-color: #62b187;
+}
+
 .register-change {
 	font-size: 15px;
 	font-family: tahoma;
 	color: #437cff;
 	margin-left: 104px;
+}
+
+.register-form-phonetip,
+.register-form-emailtip {
+	width: 300px;
+	margin-left: 155px;
+	position: relative;
+	font-size: 12px;
+	font-family: tahoma;
+	color: #262626;
+}
+
+.register-tip-checkbox {
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 11px;
+	height: 11px;
+	border: solid 2px #dcdcdc;
+}
+
+.register-submit {
+	margin-top: 32px;
+	margin-left: 223px;
+	width: 115px;
+	height: 31px;
+	line-height: 31px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	background: url(../images/sprites.png) no-repeat;
+	background-position: -1px -73px;
+	cursor: pointer;
+}
+
+
+label.error {
+	color: red;
+	font-size: 14px;
+	margin-left: 4px;
+	display: none;
+}
+
+.error.register-checkbox-error {
+	color: red;
+	display: none;
+	position: absolute;
+	top: 18px;
+	left: -92px;
+}
+
+.register-checkimg {
+	height: 41px;
+	width: 76px;
+	position: absolute;
+	left: 283px;
 }

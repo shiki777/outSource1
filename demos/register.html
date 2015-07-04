@@ -1,341 +1,351 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset='utf-8' />
+    <meta charset='utf-8'/>
     <title>注册 手机注册2/邮箱注册.psd</title>
     <link rel="stylesheet" type="text/css" href="../css/common.css">
     <link rel="stylesheet" type="text/css" href="../css/register.css">
-    <style>
-    /*trail部分暂时放在页面里，防止冲突后放入common*/
-    
-    .trail {
-        height: 31px;
-        line-height: 29px;
-        border-top: solid 1px #000;
-        border-bottom: solid 1px #000;
-        margin: 0 57px;
-        padding-left: 2px;
-        color: #000;
-    }
-    
-    .crumb-arrow {
-        margin: 0 6px;
-    }
-    </style>
 </head>
 <body>
-    <div class="container">
-        <!--头部-->
-        <div class="header">
-            <div class="header-inner">
-                <div class="search-form">
-                    <form>
-                        <label>
-                            <input type="text" id="">
-                        </label>
-                        <button type="submit" id="search" name="search">搜索</button>
+<div class="container">
+<!--头部-->
+<div class="header">
+    <div class="header-inner">
+        <div class="search-form">
+            <form>
+                <label><input type="text" id=""></label>
+                <button type="submit" id="search" name="search">搜索</button>
+            </form>
+        </div>
+        <ul class="header-nav">
+            <li class="header-nav-item login">
+                <a href="javascript:;" id="login-btn" class="header-nav-link">登录</a>
+
+                <div class="login-form">
+                    <form action="" method="post" id="login-form">
+                        <div class="login-form-item">
+                            <label for="username" class="fl">用户名：</label>
+                            <input type="text" id="username" name="username" placeholder="邮箱/手机号" class="txt">
+                        </div>
+                        <div class="login-form-item">
+                            <label for="password" class="fl">密码：</label>
+                            <input type="text" id="password" name="password" placeholder="密码" class="txt">
+                        </div>
+                        <div class="login-form-item">
+                            <div class="fl"><input type="checkbox" id="remember" name="remember"></div>
+                            <label for="remember">记住用户名</label>
+                        </div>
+                        <div class="submit-panel">
+                            <a href="#" target="_blank">忘记登录密码？</a>
+                            <button type="submit">登录</button>
+                        </div>
                     </form>
                 </div>
-                <ul class="header-nav">
-                    <li class="header-nav-item login">
-                        <a href="javascript:;" id="login-btn" class="header-nav-link">登录</a>
-                        <div class="login-form" id="login-form">
-                            <div class="login-form-item">
-                                <label>用户名：
-                                    <input type="text" placeholder="邮箱/手机号">
-                                </label>
-                            </div>
-                            <div class="login-form-item">
-                                <label>密码：
-                                    <input type="text" placeholder="密码">
-                                </label>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="header-nav-split"></li>
-                    <li class="header-nav-item">
-                        <a href="#" class="header-nav-link">注册</a>
-                    </li>
-                    <li class="header-nav-split"></li>
-                    <li class="header-nav-item">
-                        <a href="" class="header-nav-link">免费试用</a>
-                    </li>
-                    <li class="header-nav-split"></li>
-                    <li class="header-nav-item">
-                        <a href="" class="header-nav-link">购物车<em>0</em><i></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--end 头部-->
-        <div class="main">
-            <!-- nav -->
-            <div class="nav">
-                <ul class="nav-inner">
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">最新产品</a>
-                        <div class="sub-nav">
-                            <a href="#" target="_blank" class="txt">暂无</a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">明星产品</a>
-                        <div class="sub-nav">
-                            <a href="#" target="_blank" class="txt">戴维面膜</a>
-                            <a href="#" target="_blank" class="txt">身体磨砂膏</a>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-08.jpg" alt="碧妮莱">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">产品系列</a>
-                        <div class="sub-nav sub-nav-col-2">
-                            <a href="#" target="_blank" class="txt">面膜系列</a>
-                            <a href="#" target="_blank" class="txt">清爽洁面系列</a>
-                            <a href="#" target="_blank" class="txt">奢华CV系列</a>
-                            <a href="#" target="_blank" class="txt">特色泥盐系列</a>
-                            <a href="#" target="_blank" class="txt">面部唤活系列</a>
-                            <a href="#" target="_blank" class="txt">男士护理系列</a>
-                            <a href="#" target="_blank" class="txt">眼部精华系列</a>
-                            <a href="#" target="_blank" class="txt">专业药妆系列</a>
-                            <a href="#" target="_blank" class="txt">身体护理系列</a>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-01.jpg" alt="碧妮莱">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">面部护理</a>
-                        <div class="sub-nav sub-nav-col-2 sub-nav-col-2s">
-                            <div class="clearfix">
-                                <div class="fl">
-                                    <h3 class="txt">产品类型</h3>
-                                    <a href="#" target="_blank" class="txt">面膜</a>
-                                    <a href="#" target="_blank" class="txt">洁面皂</a>
-                                    <a href="#" target="_blank" class="txt">保湿滋润</a>
-                                    <a href="#" target="_blank" class="txt">清洁调理</a>
-                                    <a href="#" target="_blank" class="txt">日间护理</a>
-                                    <a href="#" target="_blank" class="txt">夜间护理</a>
-                                    <a href="#" target="_blank" class="txt">爽肤护理</a>
-                                    <a href="#" target="_blank" class="txt">眼周护</a>
-                                    <a href="#" target="_blank" class="txt">卓效精华</a>
-                                </div>
-                                <div class="fr">
-                                    <h3 class="txt">功能</h3>
-                                    <a href="#" target="_blank" class="txt">祛角质</a>
-                                    <a href="#" target="_blank" class="txt">补水</a>
-                                    <a href="#" target="_blank" class="txt">美白</a>
-                                    <a href="#" target="_blank" class="txt">深层清洁</a>
-                                    <a href="#" target="_blank" class="txt">抗衰老</a>
-                                    <a href="#" target="_blank" class="txt">眼部</a>
-                                    <a href="#" target="_blank" class="txt">卸妆</a>
-                                </div>
-                            </div>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-02.jpg" alt="戴维面膜">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">身体护理</a>
-                        <div class="sub-nav sub-nav-col-2 sub-nav-col-2s">
-                            <div class="clearfix">
-                                <div class="fl">
-                                    <h3 class="txt">产品类型</h3>
-                                    <a href="#" target="_blank" class="txt">洗发水</a>
-                                    <a href="#" target="_blank" class="txt">沐浴露</a>
-                                    <a href="#" target="_blank" class="txt">身体乳液</a>
-                                    <a href="#" target="_blank" class="txt">按摩精油</a>
-                                    <a href="#" target="_blank" class="txt">护手霜</a>
-                                    <a href="#" target="_blank" class="txt">护脚霜</a>
-                                    <a href="#" target="_blank" class="txt">浴盐</a>
-                                    <a href="#" target="_blank" class="txt">海泥</a>
-                                    <a href="#" target="_blank" class="txt">卓效精华</a>
-                                </div>
-                                <div class="fr">
-                                    <h3 class="txt">功能</h3>
-                                    <a href="#" target="_blank" class="txt">祛角质</a>
-                                    <a href="#" target="_blank" class="txt">去妊娠纹</a>
-                                    <a href="#" target="_blank" class="txt">滋润补水</a>
-                                    <a href="#" target="_blank" class="txt">美白隔离</a>
-                                    <a href="#" target="_blank" class="txt">治疗皮癣</a>
-                                </div>
-                            </div>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-03.jpg" alt="BM死海盐">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">男士护理</a>
-                        <div class="sub-nav sub-nav-col-2 sub-nav-col-2s  sub-nav-col-2ss">
-                            <div class="clearfix">
-                                <div class="fl">
-                                    <h3 class="txt">产品类型</h3>
-                                    <a href="#" target="_blank" class="txt">洁面护理</a>
-                                    <a href="#" target="_blank" class="txt">须后护理</a>
-                                    <a href="#" target="_blank" class="txt">洗发水</a>
-                                    <a href="#" target="_blank" class="txt">沐浴露</a>
-                                    <a href="#" target="_blank" class="txt">身体乳液</a>
-                                </div>
-                                <div class="fr">
-                                    <h3 class="txt">功能</h3>
-                                    <a href="#" target="_blank" class="txt">深层清洁</a>
-                                    <a href="#" target="_blank" class="txt">滋润补水</a>
-                                    <a href="#" target="_blank" class="txt">须后保湿</a>
-                                </div>
-                            </div>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-04.jpg" alt="男士护理系列">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">药妆护理</a>
-                        <div class="sub-nav sub-nav-col-2 sub-nav-col-2s  sub-nav-col-2ss">
-                            <div class="clearfix">
-                                <div class="fl">
-                                    <h3 class="txt">产品类型</h3>
-                                    <a href="#" target="_blank" class="txt">面部治疗</a>
-                                    <a href="#" target="_blank" class="txt">身体治疗</a>
-                                    <a href="#" target="_blank" class="txt">头癣治疗</a>
-                                    <a href="#" target="_blank" class="txt">脚部治疗</a>
-                                </div>
-                                <div class="fr">
-                                    <h3 class="txt">功能</h3>
-                                    <a href="#" target="_blank" class="txt">去湿疹</a>
-                                    <a href="#" target="_blank" class="txt">过敏</a>
-                                    <a href="#" target="_blank" class="txt">疤痕</a>
-                                    <a href="#" target="_blank" class="txt">淡化妊娠纹</a>
-                                    <a href="#" target="_blank" class="txt">治疗皮癣</a>
-                                </div>
-                            </div>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-03.jpg" alt="BM死海盐">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">臻享好礼</a>
-                        <div class="sub-nav">
-                            <a href="#" target="_blank" class="txt">焕活礼盒</a>
-                            <a href="#" target="_blank" class="txt">抗皱礼盒</a>
-                            <a href="#" target="_blank" class="txt">身体礼盒</a>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-08.jpg" alt="碧妮莱">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-housekeeper">
-                        <a href="#" class="nav-item-link">贴心管家</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- nav end -->
-            <!-- 面包屑导航  -->
-            <div class="trail">
-                <span class="crumb">首页</span><span class="crumb-arrow">></span><span class="crumb">新用户注册</span>
-            </div>
-            <!-- 面包屑导航 结束 -->
-            <!-- 注册  -->
-            <div class="register">
-                <div class="register-tab-con">
-                    <div class="register-tab register-current-tab">手机注册</div>
-                    <div class="register-tab">邮箱注册</div>
-                </div>
-                <div class="register-content-con">
-                    <div class="register-content">
-                        <form action="#" id="register-phone">
-                            <div class="register-form-line"><span>手机号码：</span>
-                                <input type="text" class="register-input" id="phonenumber" name="phonenumber">
-                                <label class="error" id="phonenumber-error" for="phonenumber"></label>
-                            </div>
-                            <div class="register-form-line"><span>设置密码：</span>
-                                <input type="text" class="register-input" id="phonepassword1" name="phonepassword1">
-                                <label class="error" id="phonepassword1-error" for="phonepassword1"></label>                                
-                            </div>
-                            <div class="register-form-line"><span>确认密码：</span>
-                                <input type="text" class="register-input" id="phonepassword2" name="phonepassword2">
-                                <label class="error" id="phonepassword2-error" for="phonepassword2"></label>
-                            </div>
-                            <div class="register-form-line"><span style="left:73px;">验证码：</span>
-                                <input type="text" class="register-input" id="phonecheck" name="phonecheck"  style="width: 91px;"> <a href="#" onclick=";return false;" class="register-change" id="register-change">换一张</a> <img src="" class="register-checkimg" id="register-checkimg"/>
-                                <label class="error" id="phonecheck-error" for="phonecheck"></label>
-                            </div>
-                            <div class="register-form-line"><span style="left:31px;">短信验证码：</span>
-                                <input type="text" class="register-input" id="messagecheck" name="messagecheck" style="width: 120px;">
-                                <label class="error" id="phonemessage-error" for="messagecheck"></label>
-                            </div>
-                            <div class="register-form-phonetip">
-                                <input type="checkbox" name="phoneconfirm" id="phoneconfirm" class="register-tip-checkbox">
-                                <label class="error register-checkbox-error" id="phoneconfirm-error" for="phoneconfirm">请同意协议</label>
-                                <p>我愿意订阅碧妮莱电子报，及时接收兰蔻最新资讯和促销信息。</p>
-                                <p>您填写本页面信息，将被视为您同意兰蔻（中国）品牌为向您提供更完善的服务和推介，将您的个人信息提供给品牌经销商或联盟企业。</p>
-                            </div>
-                            <div class="register-submit" id="phone-submit">立即注册</div>
-                        </form>
-                    </div>
-                    <div class="register-content">
-                        <form action="#" id="register-email">
-                            <div class="register-form-line"><span>邮箱地址：</span>
-                                <input type="text" class="register-input" id="emailnumber" name="emailnumber">
-                                <label class="error" id="emailnumber-error" for="emailnumber"></label>
-                            </div>
-                            <div class="register-form-line"><span>设置密码：</span>
-                                <input type="text" class="register-input" id="emailpassword1" name="emailpassword1">
-                                <label class="error" id="emailpassword1-error" for="emailpassword1"></label>                                
-                            </div>
-                            <div class="register-form-line"><span>确认密码：</span>
-                                <input type="text" class="register-input" id="emailpassword2" name="emailpassword2">
-                                <label class="error" id="emailpassword2-error" for="emailpassword2"></label>
-                            </div>
-                            <div class="register-form-line"><span style="left:73px;">验证码：</span>
-                                <input type="text" class="register-input" id="emailcheck" name="emailcheck"  style="width: 91px;"> <a href="#" onclick=";return false;" class="register-change" id="register-change">换一张</a> <img src="" class="register-checkimg" id="register-checkimg"/>
-                                <label class="error" id="emailcheck-error" for="emailcheck"></label>
-                            </div>
-                            <div class="register-form-line"><span style="left:31px;">邮箱验证码：</span>
-                                <input type="text" class="register-input" id="messagecheck" name="messagecheck" style="width: 120px;">
-                                <label class="error" id="emailmessage-error" for="messagecheck"></label>
-                            </div>
-                            <div class="register-form-emailtip">
-                                <input type="checkbox" name="emailconfirm" id="emailconfirm" class="register-tip-checkbox">
-                                <label class="error register-checkbox-error" id="emailconfirm-error" for="emailconfirm">请同意协议</label>
-                                <p>我愿意订阅碧妮莱电子报，及时接收兰蔻最新资讯和促销信息。</p>
-                                <p>您填写本页面信息，将被视为您同意兰蔻（中国）品牌为向您提供更完善的服务和推介，将您的个人信息提供给品牌经销商或联盟企业。</p>
-                            </div>
-                            <div class="register-submit" id="email-submit">立即注册</div>
-                        </form>
-                    </div>                    
-                </div>
-            </div>
-            <!-- 注册结束 -->
-        </div>
-        <!--尾部-->
-        <div class="footer">
-            <div class="links">
-                <a href="#">关于BM</a>
-                <a href="#">帮助中心</a>
-                <a href="#">联系我们</a>
-                <span>官方订购热线：021-67660621</span>
-                <span>地址：上海市松江区广富林路658弄万达写字楼1号楼1402室</span>
-            </div>
-            <p class="copyright">©亿加（上海）化妆品有限公司版权所有</p>
-        </div>
-        <!--end 尾部-->
+            </li>
+            <li class="header-nav-split"></li>
+            <li class="header-nav-item">
+                <a href="#" class="header-nav-link">注册</a>
+            </li>
+            <li class="header-nav-split"></li>
+            <li class="header-nav-item">
+                <a href="" class="header-nav-link">免费试用</a>
+            </li>
+            <li class="header-nav-split"></li>
+            <li class="header-nav-item shopping-cart">
+                <a href="" class="header-nav-link">购物车<em>0</em><i></i></a>
+            </li>
+        </ul>
     </div>
-    <!--脚本-->
-    <script src="../scripts/jquery-1.11.3.min.js"></script>
-    <script src="../scripts/jquery.validate.min.js"></script>
-    <script src="../scripts/register.js"></script>
-    <!--end 脚本-->
+</div>
+<!--end 头部-->
+<div class="main">
+<!-- nav -->
+<div class="nav">
+    <ul class="nav-inner">
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">最新产品</a>
+
+            <div class="sub-nav">
+                <a href="#" target="_blank" class="txt">暂无</a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">明星产品</a>
+
+            <div class="sub-nav">
+                <a href="#" target="_blank" class="txt">戴维面膜</a>
+                <a href="#" target="_blank" class="txt">身体磨砂膏</a>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-08.jpg" alt="碧妮莱">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">产品系列</a>
+
+            <div class="sub-nav sub-nav-col-2">
+                <a href="#" target="_blank" class="txt">面膜系列</a>
+                <a href="#" target="_blank" class="txt">清爽洁面系列</a>
+                <a href="#" target="_blank" class="txt">奢华CV系列</a>
+                <a href="#" target="_blank" class="txt">特色泥盐系列</a>
+                <a href="#" target="_blank" class="txt">面部唤活系列</a>
+                <a href="#" target="_blank" class="txt">男士护理系列</a>
+                <a href="#" target="_blank" class="txt">眼部精华系列</a>
+                <a href="#" target="_blank" class="txt">专业药妆系列</a>
+                <a href="#" target="_blank" class="txt">身体护理系列</a>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-01.jpg" alt="碧妮莱">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">面部护理</a>
+
+            <div class="sub-nav sub-nav-col-2 sub-nav-col-2s">
+                <div class="clearfix">
+                    <div class="fl">
+                        <h3 class="txt">产品类型</h3>
+                        <a href="#" target="_blank" class="txt">面膜</a>
+                        <a href="#" target="_blank" class="txt">洁面皂</a>
+                        <a href="#" target="_blank" class="txt">保湿滋润</a>
+                        <a href="#" target="_blank" class="txt">清洁调理</a>
+                        <a href="#" target="_blank" class="txt">日间护理</a>
+                        <a href="#" target="_blank" class="txt">夜间护理</a>
+                        <a href="#" target="_blank" class="txt">爽肤护理</a>
+                        <a href="#" target="_blank" class="txt">眼周护</a>
+                        <a href="#" target="_blank" class="txt">卓效精华</a>
+                    </div>
+                    <div class="fr">
+                        <h3 class="txt">功能</h3>
+                        <a href="#" target="_blank" class="txt">祛角质</a>
+                        <a href="#" target="_blank" class="txt">补水</a>
+                        <a href="#" target="_blank" class="txt">美白</a>
+                        <a href="#" target="_blank" class="txt">深层清洁</a>
+                        <a href="#" target="_blank" class="txt">抗衰老</a>
+                        <a href="#" target="_blank" class="txt">眼部</a>
+                        <a href="#" target="_blank" class="txt">卸妆</a>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-02.jpg" alt="戴维面膜">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">身体护理</a>
+
+            <div class="sub-nav sub-nav-col-2 sub-nav-col-2s">
+                <div class="clearfix">
+                    <div class="fl">
+                        <h3 class="txt">产品类型</h3>
+                        <a href="#" target="_blank" class="txt">洗发水</a>
+                        <a href="#" target="_blank" class="txt">沐浴露</a>
+                        <a href="#" target="_blank" class="txt">身体乳液</a>
+                        <a href="#" target="_blank" class="txt">按摩精油</a>
+                        <a href="#" target="_blank" class="txt">护手霜</a>
+                        <a href="#" target="_blank" class="txt">护脚霜</a>
+                        <a href="#" target="_blank" class="txt">浴盐</a>
+                        <a href="#" target="_blank" class="txt">海泥</a>
+                        <a href="#" target="_blank" class="txt">卓效精华</a>
+                    </div>
+                    <div class="fr">
+                        <h3 class="txt">功能</h3>
+                        <a href="#" target="_blank" class="txt">祛角质</a>
+                        <a href="#" target="_blank" class="txt">去妊娠纹</a>
+                        <a href="#" target="_blank" class="txt">滋润补水</a>
+                        <a href="#" target="_blank" class="txt">美白隔离</a>
+                        <a href="#" target="_blank" class="txt">治疗皮癣</a>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-03.jpg" alt="BM死海盐">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">男士护理</a>
+
+            <div class="sub-nav sub-nav-col-2 sub-nav-col-2s  sub-nav-col-2ss">
+                <div class="clearfix">
+                    <div class="fl">
+                        <h3 class="txt">产品类型</h3>
+                        <a href="#" target="_blank" class="txt">洁面护理</a>
+                        <a href="#" target="_blank" class="txt">须后护理</a>
+                        <a href="#" target="_blank" class="txt">洗发水</a>
+                        <a href="#" target="_blank" class="txt">沐浴露</a>
+                        <a href="#" target="_blank" class="txt">身体乳液</a>
+                    </div>
+                    <div class="fr">
+                        <h3 class="txt">功能</h3>
+                        <a href="#" target="_blank" class="txt">深层清洁</a>
+                        <a href="#" target="_blank" class="txt">滋润补水</a>
+                        <a href="#" target="_blank" class="txt">须后保湿</a>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-04.jpg" alt="男士护理系列">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">药妆护理</a>
+
+            <div class="sub-nav sub-nav-col-2 sub-nav-col-2s  sub-nav-col-2ss">
+                <div class="clearfix">
+                    <div class="fl">
+                        <h3 class="txt">产品类型</h3>
+                        <a href="#" target="_blank" class="txt">面部治疗</a>
+                        <a href="#" target="_blank" class="txt">身体治疗</a>
+                        <a href="#" target="_blank" class="txt">头癣治疗</a>
+                        <a href="#" target="_blank" class="txt">脚部治疗</a>
+                    </div>
+                    <div class="fr">
+                        <h3 class="txt">功能</h3>
+                        <a href="#" target="_blank" class="txt">去湿疹</a>
+                        <a href="#" target="_blank" class="txt">过敏</a>
+                        <a href="#" target="_blank" class="txt">疤痕</a>
+                        <a href="#" target="_blank" class="txt">淡化妊娠纹</a>
+                        <a href="#" target="_blank" class="txt">治疗皮癣</a>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-03.jpg" alt="BM死海盐">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">臻享好礼</a>
+
+            <div class="sub-nav">
+                <a href="#" target="_blank" class="txt">焕活礼盒</a>
+                <a href="#" target="_blank" class="txt">抗皱礼盒</a>
+                <a href="#" target="_blank" class="txt">身体礼盒</a>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-08.jpg" alt="碧妮莱">
+                </a>
+            </div>
+        </li>
+        <li class="nav-housekeeper">
+            <a href="#" class="nav-item-link">贴心管家</a>
+        </li>
+    </ul>
+</div>
+<!-- nav end -->
+<!-- 面包屑导航  -->
+<div class="trail">
+    <span class="crumb">首页</span><span class="crumb-arrow">></span><span class="crumb">新用户注册</span>
+</div>
+<!-- 面包屑导航 结束 -->
+<!-- 注册  -->
+<div class="register">
+    <div class="register-tab-con">
+        <div class="register-tab register-current-tab">手机注册</div>
+        <div class="register-tab">邮箱注册</div>
+    </div>
+    <div class="register-content-con">
+        <div class="register-content">
+            <form action="#" id="register-phone">
+                <div class="register-form-line"><span>手机号码：</span>
+                    <input type="text" class="register-input" id="phonenumber" name="phonenumber">
+                    <label class="error" id="phonenumber-error" for="phonenumber"></label>
+                </div>
+                <div class="register-form-line"><span>设置密码：</span>
+                    <input type="text" class="register-input" id="phonepassword1" name="phonepassword1">
+                    <label class="error" id="phonepassword1-error" for="phonepassword1"></label>
+                </div>
+                <div class="register-form-line"><span>确认密码：</span>
+                    <input type="text" class="register-input" id="phonepassword2" name="phonepassword2">
+                    <label class="error" id="phonepassword2-error" for="phonepassword2"></label>
+                </div>
+                <div class="register-form-line"><span style="left:73px;">验证码：</span>
+                    <input type="text" class="register-input" id="phonecheck" name="phonecheck" style="width: 91px;"> <a
+                            href="#" onclick=";return false;" class="register-change" id="register-change">换一张</a> <img
+                            src="" class="register-checkimg" id="register-checkimg"/>
+                    <label class="error" id="phonecheck-error" for="phonecheck"></label>
+                </div>
+                <div class="register-form-line"><span style="left:31px;">短信验证码：</span>
+                    <input type="text" class="register-input" id="messagecheck" name="messagecheck"
+                           style="width: 120px;">
+                    <label class="error" id="phonemessage-error" for="messagecheck"></label>
+                </div>
+                <div class="register-form-phonetip">
+                    <input type="checkbox" name="phoneconfirm" id="phoneconfirm" class="register-tip-checkbox">
+                    <label class="error register-checkbox-error" id="phoneconfirm-error"
+                           for="phoneconfirm">请同意协议</label>
+
+                    <p>我愿意订阅碧妮莱电子报，及时接收兰蔻最新资讯和促销信息。</p>
+
+                    <p>您填写本页面信息，将被视为您同意兰蔻（中国）品牌为向您提供更完善的服务和推介，将您的个人信息提供给品牌经销商或联盟企业。</p>
+                </div>
+                <div class="register-submit" id="phone-submit">立即注册</div>
+            </form>
+        </div>
+        <div class="register-content" style="display: none">
+            <form action="#" id="register-email">
+                <div class="register-form-line"><span>邮箱地址：</span>
+                    <input type="text" class="register-input" id="emailnumber" name="emailnumber">
+                    <label class="error" id="emailnumber-error" for="emailnumber"></label>
+                </div>
+                <div class="register-form-line"><span>设置密码：</span>
+                    <input type="text" class="register-input" id="emailpassword1" name="emailpassword1">
+                    <label class="error" id="emailpassword1-error" for="emailpassword1"></label>
+                </div>
+                <div class="register-form-line"><span>确认密码：</span>
+                    <input type="text" class="register-input" id="emailpassword2" name="emailpassword2">
+                    <label class="error" id="emailpassword2-error" for="emailpassword2"></label>
+                </div>
+                <div class="register-form-line"><span style="left:73px;">验证码：</span>
+                    <input type="text" class="register-input" id="emailcheck" name="emailcheck" style="width: 91px;"> <a
+                            href="#" onclick=";return false;" class="register-change" id="register-change">换一张</a> <img
+                            src="" class="register-checkimg" id="register-checkimg"/>
+                    <label class="error" id="emailcheck-error" for="emailcheck"></label>
+                </div>
+                <div class="register-form-line"><span style="left:31px;">邮箱验证码：</span>
+                    <input type="text" class="register-input" id="messagecheck" name="messagecheck"
+                           style="width: 120px;">
+                    <label class="error" id="emailmessage-error" for="messagecheck"></label>
+                </div>
+                <div class="register-form-emailtip">
+                    <input type="checkbox" name="emailconfirm" id="emailconfirm" class="register-tip-checkbox">
+                    <label class="error register-checkbox-error" id="emailconfirm-error"
+                           for="emailconfirm">请同意协议</label>
+
+                    <p>我愿意订阅碧妮莱电子报，及时接收兰蔻最新资讯和促销信息。</p>
+
+                    <p>您填写本页面信息，将被视为您同意兰蔻（中国）品牌为向您提供更完善的服务和推介，将您的个人信息提供给品牌经销商或联盟企业。</p>
+                </div>
+                <div class="register-submit" id="email-submit">立即注册</div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- 注册结束 -->
+</div>
+<!--尾部-->
+<div class="footer">
+    <div class="links">
+        <a href="#">关于BM</a>
+        <a href="#">帮助中心</a>
+        <a href="#">联系我们</a>
+        <span>官方订购热线：021-67660621</span>
+        <span>地址：上海市松江区广富林路658弄万达写字楼1号楼1402室</span>
+    </div>
+    <p class="copyright">©亿加（上海）化妆品有限公司版权所有</p>
+</div>
+<!--end 尾部-->
+</div>
+<!--脚本-->
+<script src="../scripts/jquery-1.11.3.min.js"></script>
+<script src="../scripts/jquery.validate.min.js"></script>
+<script src="../scripts/register.js"></script>
+<!--end 脚本-->
 </body>
 
 </html>
