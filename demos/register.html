@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+	<meta charset='utf-8' />
     <title>注册 手机注册2/邮箱注册.psd</title>
     <link rel="stylesheet" type="text/css" href="../css/common.css">
-    <link rel="stylesheet" type="text/css" href="../css/register.css">    
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
     <style>
     /*trail部分暂时放在页面里，防止冲突后放入common*/
-	.trail {
-		height: 31px;
-		line-height: 29px;
-		border-top: solid 1px #000;
-		border-bottom: solid 1px #000;
-		margin: 0 57px;
-		padding-left: 2px;
-		color: #000;
-	}
-	.crumb-arrow {
-		margin: 0 6px;
-	}
+    
+    .trail {
+        height: 31px;
+        line-height: 29px;
+        border-top: solid 1px #000;
+        border-bottom: solid 1px #000;
+        margin: 0 57px;
+        padding-left: 2px;
+        color: #000;
+    }
+    
+    .crumb-arrow {
+        margin: 0 6px;
+    }
     </style>
 </head>
-
 <body>
     <div class="container">
         <!--头部-->
@@ -68,7 +69,7 @@
         </div>
         <!--end 头部-->
         <div class="main">
-        <!-- nav -->
+            <!-- nav -->
             <div class="nav">
                 <ul class="nav-inner">
                     <li class="nav-item">
@@ -238,31 +239,84 @@
                     </li>
                 </ul>
             </div>
-        <!-- nav end -->
-        <!-- 面包屑导航  -->
-			<div class="trail">
-				<span class="crumb">首页</span><span class="crumb-arrow">></span><span class="crumb">新用户注册</span>
-			</div>
-			<!-- 面包屑导航 结束 -->
-			<!-- 注册  -->
-			<div class="register">
-				<div class="register-tab-con">
-					<div class="register-tab register-current-tab">手机注册</div>
-					<div class="register-tab">邮箱注册</div>
-				</div>
-				<div class="register-content-con">
-					<div class="register-content">
-						<form action="#" id="register-phone">
-						<div class="register-form-line"><span>手机号码：</span><input type="text" class="register-input"></div>
-						<div class="register-form-line"><span>设置密码：</span><input type="text" class="register-input"></div>
-						<div class="register-form-line"><span>确认密码：</span><input type="text" class="register-input"></div>
-						<div class="register-form-line"><span style="left:73px;">验证码：</span><input type="text" class="register-input" style="width: 91px;"> <a href="#" onclick=";return false;" class="register-change">换一张</a></div>
-						<div class="register-form-line"><span style="left:31px;">短信验证码：</span><input type="text" class="register-input" style="width: 120px;"></div>
-						</form>
-					</div>
-				</div>
-			</div>	
-			<!-- 注册结束 -->
+            <!-- nav end -->
+            <!-- 面包屑导航  -->
+            <div class="trail">
+                <span class="crumb">首页</span><span class="crumb-arrow">></span><span class="crumb">新用户注册</span>
+            </div>
+            <!-- 面包屑导航 结束 -->
+            <!-- 注册  -->
+            <div class="register">
+                <div class="register-tab-con">
+                    <div class="register-tab register-current-tab">手机注册</div>
+                    <div class="register-tab">邮箱注册</div>
+                </div>
+                <div class="register-content-con">
+                    <div class="register-content">
+                        <form action="#" id="register-phone">
+                            <div class="register-form-line"><span>手机号码：</span>
+                                <input type="text" class="register-input" id="phonenumber" name="phonenumber">
+                                <label class="error" id="phonenumber-error" for="phonenumber"></label>
+                            </div>
+                            <div class="register-form-line"><span>设置密码：</span>
+                                <input type="text" class="register-input" id="phonepassword1" name="phonepassword1">
+                                <label class="error" id="phonepassword1-error" for="phonepassword1"></label>                                
+                            </div>
+                            <div class="register-form-line"><span>确认密码：</span>
+                                <input type="text" class="register-input" id="phonepassword2" name="phonepassword2">
+                                <label class="error" id="phonepassword2-error" for="phonepassword2"></label>
+                            </div>
+                            <div class="register-form-line"><span style="left:73px;">验证码：</span>
+                                <input type="text" class="register-input" id="phonecheck" name="phonecheck"  style="width: 91px;"> <a href="#" onclick=";return false;" class="register-change" id="register-change">换一张</a> <img src="" class="register-checkimg" id="register-checkimg"/>
+                                <label class="error" id="phonecheck-error" for="phonecheck"></label>
+                            </div>
+                            <div class="register-form-line"><span style="left:31px;">短信验证码：</span>
+                                <input type="text" class="register-input" id="messagecheck" name="messagecheck" style="width: 120px;">
+                                <label class="error" id="phonemessage-error" for="messagecheck"></label>
+                            </div>
+                            <div class="register-form-phonetip">
+                                <input type="checkbox" name="phoneconfirm" id="phoneconfirm" class="register-tip-checkbox">
+                                <label class="error register-checkbox-error" id="phoneconfirm-error" for="phoneconfirm">请同意协议</label>
+                                <p>我愿意订阅碧妮莱电子报，及时接收兰蔻最新资讯和促销信息。</p>
+                                <p>您填写本页面信息，将被视为您同意兰蔻（中国）品牌为向您提供更完善的服务和推介，将您的个人信息提供给品牌经销商或联盟企业。</p>
+                            </div>
+                            <div class="register-submit" id="phone-submit">立即注册</div>
+                        </form>
+                    </div>
+                    <div class="register-content">
+                        <form action="#" id="register-email">
+                            <div class="register-form-line"><span>邮箱地址：</span>
+                                <input type="text" class="register-input" id="emailnumber" name="emailnumber">
+                                <label class="error" id="emailnumber-error" for="emailnumber"></label>
+                            </div>
+                            <div class="register-form-line"><span>设置密码：</span>
+                                <input type="text" class="register-input" id="emailpassword1" name="emailpassword1">
+                                <label class="error" id="emailpassword1-error" for="emailpassword1"></label>                                
+                            </div>
+                            <div class="register-form-line"><span>确认密码：</span>
+                                <input type="text" class="register-input" id="emailpassword2" name="emailpassword2">
+                                <label class="error" id="emailpassword2-error" for="emailpassword2"></label>
+                            </div>
+                            <div class="register-form-line"><span style="left:73px;">验证码：</span>
+                                <input type="text" class="register-input" id="emailcheck" name="emailcheck"  style="width: 91px;"> <a href="#" onclick=";return false;" class="register-change" id="register-change">换一张</a> <img src="" class="register-checkimg" id="register-checkimg"/>
+                                <label class="error" id="emailcheck-error" for="emailcheck"></label>
+                            </div>
+                            <div class="register-form-line"><span style="left:31px;">邮箱验证码：</span>
+                                <input type="text" class="register-input" id="messagecheck" name="messagecheck" style="width: 120px;">
+                                <label class="error" id="emailmessage-error" for="messagecheck"></label>
+                            </div>
+                            <div class="register-form-emailtip">
+                                <input type="checkbox" name="emailconfirm" id="emailconfirm" class="register-tip-checkbox">
+                                <label class="error register-checkbox-error" id="emailconfirm-error" for="emailconfirm">请同意协议</label>
+                                <p>我愿意订阅碧妮莱电子报，及时接收兰蔻最新资讯和促销信息。</p>
+                                <p>您填写本页面信息，将被视为您同意兰蔻（中国）品牌为向您提供更完善的服务和推介，将您的个人信息提供给品牌经销商或联盟企业。</p>
+                            </div>
+                            <div class="register-submit" id="email-submit">立即注册</div>
+                        </form>
+                    </div>                    
+                </div>
+            </div>
+            <!-- 注册结束 -->
         </div>
         <!--尾部-->
         <div class="footer">
@@ -277,6 +331,11 @@
         </div>
         <!--end 尾部-->
     </div>
+    <!--脚本-->
+    <script src="../scripts/jquery-1.11.3.min.js"></script>
+    <script src="../scripts/jquery.validate.min.js"></script>
+    <script src="../scripts/register.js"></script>
+    <!--end 脚本-->
 </body>
 
 </html>
