@@ -1,0 +1,49 @@
+/**
+ * 首页样式
+ */
+.slider-trigger a{
+    background: url(../images/sprites.png);
+    background-repeat: no-repeat;
+}
+
+
+/*图片轮播*/
+.slider {
+    overflow: hidden;
+    height: 482px;
+    width: 100%;
+    position: relative;
+}
+
+.slider-content {
+    width: 300%;
+
+}
+
+.slider-content a {
+    width: 1099px;
+    float: left;
+}
+
+.slider-trigger {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 11px;
+    left: 0;
+}
+
+
+.slider-trigger a {
+    display: inline-block;
+    background-position: -149px -1px;
+    margin: 0 8px;
+    width: 15px;
+    height: 15px;
+}
+
+.slider-trigger a:hover, .slider-trigger a.active {
+    background-position: -166px -1px;
+}
+
+
