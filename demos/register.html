@@ -4,6 +4,7 @@
 <head>
     <title>注册 手机注册2/邮箱注册.psd</title>
     <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/register.css">    
     <style>
     /*trail部分暂时放在页面里，防止冲突后放入common*/
 	.trail {
@@ -238,9 +239,30 @@
                 </ul>
             </div>
         <!-- nav end -->
+        <!-- 面包屑导航  -->
 			<div class="trail">
 				<span class="crumb">首页</span><span class="crumb-arrow">></span><span class="crumb">新用户注册</span>
 			</div>
+			<!-- 面包屑导航 结束 -->
+			<!-- 注册  -->
+			<div class="register">
+				<div class="register-tab-con">
+					<div class="register-tab register-current-tab">手机注册</div>
+					<div class="register-tab">邮箱注册</div>
+				</div>
+				<div class="register-content-con">
+					<div class="register-content">
+						<form action="#" id="register-phone">
+						<div class="register-form-line"><span>手机号码：</span><input type="text" class="register-input"></div>
+						<div class="register-form-line"><span>设置密码：</span><input type="text" class="register-input"></div>
+						<div class="register-form-line"><span>确认密码：</span><input type="text" class="register-input"></div>
+						<div class="register-form-line"><span style="left:73px;">验证码：</span><input type="text" class="register-input" style="width: 91px;"> <a href="#" onclick=";return false;" class="register-change">换一张</a></div>
+						<div class="register-form-line"><span style="left:31px;">短信验证码：</span><input type="text" class="register-input" style="width: 120px;"></div>
+						</form>
+					</div>
+				</div>
+			</div>	
+			<!-- 注册结束 -->
         </div>
         <!--尾部-->
         <div class="footer">

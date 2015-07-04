@@ -1,0 +1,71 @@
+.register {
+	margin: 58px 57px;
+	padding-left: 55px;
+}
+
+.register-tab-con {
+	height: 55px;
+	font-family: "Microsoft YaHei";
+	font-size: 25px;
+	position: relative;
+	top: 2px;
+	z-index: 10;
+}
+
+.register-tab {
+	width: 153px;
+	height: 51px;
+	line-height: 54px;
+	border: solid 2px #dcdcdc;
+	border-radius: 6px 6px 0 0;
+	float: left;
+	margin-right: 6px;
+	text-align: center;
+	color: #b4acac;
+	background: #eeeeee;
+	cursor: pointer;
+}
+
+.register-current-tab {
+	background: #ffffff;
+	color: #000000;
+	border-bottom: solid 2px #ffffff;
+}
+
+.register-content {
+	width: 568px;
+	height: 496px;
+	padding-top: 46px;
+	border: solid 2px #dcdcdc;
+	border-radius: 0 6px 6px 6px;
+}
+
+.register-form-line {
+	height: 37px;
+	line-height: 37px;
+	font-size: 21px;
+	font-family:黑体;
+	margin-bottom: 26px;
+	position: relative;
+	padding-left: 154px;		
+}
+
+.register-form-line span {
+	position: absolute;
+	left: 52px;
+}
+
+.register-input {
+	height: 37px;
+	line-height: 37px;
+	background: #fff;
+	border: solid 2px #dcdcdc;
+	width: 250px;
+}
+
+.register-change {
+	font-size: 15px;
+	font-family: tahoma;
+	color: #437cff;
+	margin-left: 104px;
+}
