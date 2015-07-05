@@ -1,0 +1,173 @@
+.care {
+    margin: 10px 57px;
+    margin-bottom: 91px;
+}
+
+.care-title h2 {
+    font-size: 25px;
+    font-family: "Microsoft YaHei";
+    color: #000000;
+    padding: 0;
+}
+
+.care-left {
+    width: 211px;
+    float: left;
+}
+
+.care-right {
+    width: 771px;
+    float: right;
+}
+
+.care-classify-block {
+    margin-top: 10px;
+}
+
+.care-classify-block-item {
+    font-family: 黑 体;
+    font-size: 18px;
+    color: #3a3939;
+    padding-left: 22px;
+}
+
+.care-classify-block-item input {
+    width: 13px;
+    height: 13px;
+    border: solid 1px #d4d4d4;
+    margin-right: 14px;
+}
+
+.care-classify-block-title {
+    font-family: 黑 体;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    padding-left: 22px;
+    font-weight: bold;
+}
+
+.care-classify-block-handle {
+    position: absolute;
+    height: 2px;
+    width: 11px;
+    overflow: hidden;
+    background: #fcbf1d;
+    color: #fcbf1d;
+    left: 0;
+    top: 10px;
+    cursor: pointer;
+}
+
+.care-tabs {
+    float: right;
+}
+
+.care-tab {
+    font-family: 黑 体;
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    border-bottom: solid 4px #d6d6d6;
+    width: 60px;
+    letter-spacing: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.care-tab-current {
+    border-bottom: solid 4px #66b38a;
+}
+
+.care-goods-list {
+    width: 800px;
+}
+
+.care-good-list-item {
+    width: 247px;
+    height: 251px;
+    float: left;
+    margin-top: 48px;
+    margin-right: 19px;
+    text-align: center;
+}
+
+.care-good-img {
+    height: 106px;
+    border: 0;
+}
+
+.care-good-img img {
+    width: 106px;
+    height: 106px;
+}
+
+.care-good-title {
+    font-family: Arial tahoma;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 21px;
+}
+
+.care-good-title a{
+    color: #000000;
+}
+
+.care-good-name {
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.care-good-name a{
+    color: #000000;
+}
+
+.care-good-level {
+    width: 150px;
+    margin-left: 46px;
+    margin-top: 14px;
+}
+
+.rate-stars {
+    float: left;
+    margin-top: 2px;
+}
+
+.care-good-prize {
+    float: right;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+.care-buy-button {
+    display: block;
+    width: 93px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: url(../images/sprites.png);
+    background-position: -1px -134px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: '黑体';
+    color: #000000;
+    margin-left: 79px;
+    margin-top: 10px;
+}
+
+.care-buy-button:hover {
+    background-position: -1px -162px;
+    color: #ffffff;
+}
+
+.care-classify-block-handle-add {
+    width: 11px;
+    height: 11px;
+    text-align: center;
+    line-height: 8px;
+    background: #fff;
+    font-weight: bold;
+}

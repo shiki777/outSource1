@@ -84,7 +84,7 @@ body {
 .nav-split,
 .nav-housekeeper .nav-item-link,
 .login-form .submit-panel button,
-.login-form label.error{
+.login-form label.error {
     background: url(../images/sprites.png);
     background-repeat: no-repeat;
 }
@@ -95,6 +95,11 @@ body {
     margin: 0 auto;
     background: #fff;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.31);
+}
+
+.s-container {
+    width: 984px;
+    margin: 0 auto;
 }
 
 .main {
@@ -424,10 +429,39 @@ body {
     margin: 0 6px;
 }
 
-.clearfix:after {
-    content:".";
-    display:block;
-    height:0; 
-    visibility:hidden; 
-    clear:both; 
+/*评分*/
+.rate-stars, .rate-stars i {
+    height: 13px;
+    background: url(../images/rate-stars.png);
+    background-repeat: repeat-x;
+}
+
+.rate-stars {
+    width: 80px;
+}
+
+.rate-stars i {
+    display: inline-block;
+    background-position: 0 -13px;
+    float: left;
+}
+
+.rate-stars-1 i {
+    width: 20%;
+}
+
+.rate-stars-2 i {
+    width: 40%;
+}
+
+.rate-stars-3 i {
+    width: 60%;
+}
+
+.rate-stars-4 i {
+    width: 80%;
+}
+
+.rate-stars-5 i {
+    width: 100%;
 }

@@ -53,6 +53,7 @@
 	width: 11px;
 	overflow: hidden;
 	background: #fcbf1d;
+	color: #fcbf1d;
 	left: 0;
 	top: 10px;
 	cursor: pointer;
@@ -171,4 +172,13 @@
 .care-buy-button:hover {
 	background-position: -1px -162px;
 	color: #ffffff;
+}
+
+.care-classify-block-handle-add {
+	width: 11px;
+	height: 11px;
+	text-align: center;
+	line-height: 8px;
+	background: #fff;
+	font-weight: bold;
 }
