@@ -423,3 +423,11 @@ body {
 .crumb-arrow {
     margin: 0 6px;
 }
+
+.clearfix:after {
+    content:".";
+    display:block;
+    height:0; 
+    visibility:hidden; 
+    clear:both; 
+}
