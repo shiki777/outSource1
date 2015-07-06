@@ -465,3 +465,42 @@ body {
 .rate-stars-5 i {
     width: 100%;
 }
+
+/*分页*/
+.pagination {
+    text-align: right;
+    font-family: arial;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #b5b4b3;
+}
+
+.pagination * {
+    vertical-align: middle;
+}
+
+.pagination-prev, .pagination-next {
+    background: url(../images/sprites.png) no-repeat;
+    width: 10px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.pagination-input {
+    width: 25px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+    color: #b5b4b3;
+    text-align: right;
+    padding: 0 3px;
+}
+
+.pagination-prev {
+    background-position: -199px -1px;
+}
+
+.pagination-next {
+    background-position: -211px -1px;
+}
