@@ -1,0 +1,84 @@
+.gift-item {
+    padding: 20px 0;
+    border-top: solid 1px #000;
+    margin-top: -1px;
+}
+
+.gift-item .info {
+    float: left;
+    margin-left: 35px;
+    width: 357px;
+    position: relative;
+}
+
+.gift-item .picture {
+    float: right;
+}
+
+.gift-item-mid .info {
+    float: right;
+    margin-right: 35px;
+}
+
+.gift-item-mid .picture {
+    float: left;
+}
+
+.gift-item h3 {
+    font-size: 25px;
+    padding: 50px 0 6px;
+    border-bottom: solid 1px #000;
+    margin-bottom: 27px;
+}
+
+.gift-item h3 em {
+    font-size: 32px;
+    font-style: italic;
+    color: #6ac795;
+    margin: 0 6px 0 2px;
+}
+
+.gift-item .price {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    width: 86px;
+    height: 90px;
+    background: url(../images/sprites.png) no-repeat -116px -24px;
+    text-indent: 23px;
+    font:28px/110px '宋体' ;
+}
+
+.gift-item .info ul {
+    margin-bottom: 23px;
+}
+
+.gift-item .info li {
+    height: 25px;
+    line-height: 25px;
+    padding-left: 21px;
+    background: url(../images/list-style.png) no-repeat 5px 10px;
+}
+
+.gift-item .info li * {
+    float: left;
+    font-size: 15px;
+    color: #737171;
+}
+
+.gift-item .info li span {
+    float: right;
+}
+
+.gift-item .info .buy {
+    display: inline-block;
+    width: 93px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: url(../images/sprites.png) -1px -162px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: '黑体';
+    color: #fff;
+}
