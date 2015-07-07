@@ -27,11 +27,13 @@
 .product-thumb {
 	width: 463px;
 	float: left;
+	height: 100%;
 }
 
 .product-deal {
 	width: 225px;
 	float: left;
+	padding-top: 80px;
 }
 
 .product-introduction h2 {
@@ -76,7 +78,7 @@
 	background: url(../images/sprites.png);
 	cursor: pointer;
 	border-radius: 2px;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 .share-weibo {
@@ -99,4 +101,84 @@
 
 .share-plus {
 	background-position: -29px -258px;
+}
+
+.product-share {
+	margin-top: 5px;
+}
+
+.product-thumb img {
+	margin: 0 auto;
+	border: 0;
+	margin-top: 180px;
+	display: block;
+}
+
+.product-deal label {
+	display: block;
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+	line-height: 35px;
+	height: 35px;
+	letter-spacing: 4px;
+}
+
+.product-deal select {
+	margin-left: 15px;
+	border: solid 1px #d4d4d4;
+	color: #939393;
+	border-radius: 3px;
+}
+
+.product-deal-center {
+	border-top: solid 1px #d6d6d6;
+	margin-top: 7px;
+	height: 122px;
+	border-bottom: solid 1px #d6d6d6;
+}
+
+.product-deal-price {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-left: 3px;
+}
+
+.product-deal-purchase-button {
+	cursor: pointer;
+	background: url(../images/sprites.png);
+	background-position: -1px -162px;
+	width: 93px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 15px;
+	color: #fff;
+	font-family: 黑体;
+	text-align: center;
+	margin-top: 12px;
+	padding-left: 3px;
+}
+
+.product-deal-bottom {
+	margin-top: 10px;
+}
+
+.product-deal-bottom .rate-stars {
+	display: inline-block;
+}
+
+.product-deal-bottom a {
+	color: #262626;
+	font-family: tahoma;
+}
+
+.product-deal-bottom a span {
+	color: #74b993;
+	margin: 0 2px;
+}
+
+.product-deal-comment {
+	border-left: solid 1px #d6d6d6;
+	padding-left: 5px;
 }
