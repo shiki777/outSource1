@@ -2,3 +2,101 @@
   margin: 10px 57px;
   margin-bottom: 91px;
 }
+
+.product-detail {
+	height: 331px;
+	margin-top: 40px;
+}
+
+.product-banner {
+	display: block;
+	height: 403px;
+	margin-top: 16px;
+}
+
+.product-comment {
+	height: 390px;
+	margin-top: 46px;
+}
+
+.product-introduction {
+	float: left;
+	width: 294px;
+}
+
+.product-thumb {
+	width: 463px;
+	float: left;
+}
+
+.product-deal {
+	width: 225px;
+	float: left;
+}
+
+.product-introduction h2 {
+	font-size: 32px;
+	font-family: "Microsoft YaHei";
+}
+
+.product-introduction-tabs {
+	height: 32px;
+	line-height: 30px;
+	overflow: hidden;
+	width: 236px;
+}
+
+.product-introduction-tab {
+	float: left;
+	font-size: 16px;
+	font-family: 黑体;
+	border-bottom: solid 4px #d6d6d6;
+	width: 78px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.product-introduction-tab-current {
+	border-bottom-color: #66b38a;
+}
+
+.product-introduction-tabcontent {
+	width: 236px;
+	height: 172px;
+	border-bottom: solid 1px #d6d6d6;
+	font-size: 15px;
+	font-family: 黑体;
+}
+
+.product-share-icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	background: url(../images/sprites.png);
+	cursor: pointer;
+	border-radius: 2px;
+	vertical-align: middle;
+}
+
+.share-weibo {
+	background-position: -1px -223px;
+}
+
+.share-qq {
+	background-position: -24px -224px;
+}
+
+.share-weixin {
+	background-position: -8px -251px;
+}
+
+.share-renren {
+	width: 32px;
+	height: 19px;
+	background-position: -51px -228px;
+}
+
+.share-plus {
+	background-position: -29px -258px;
+}
