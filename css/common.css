@@ -1,3 +1,7 @@
+/**
+ * 公共
+ */
+
 /*reset*/
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td {
     margin: 0;
@@ -422,6 +426,10 @@ body {
     border-bottom: solid 1px #000;
     margin: 0 57px;
     padding-left: 2px;
+    color: #000;
+}
+
+.trail a{
     color: #000;
 }
 

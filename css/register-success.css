@@ -1,0 +1,120 @@
+/**
+ * 注册成功页
+ */
+
+/*注册成功贴士*/
+.tips {
+    padding: 45px 38px 70px 2px;
+    overflow: hidden;
+}
+
+.tips-main {
+    float: left;
+    width: 620px;
+}
+
+.tips-main h2 {
+    font-size: 33px;
+}
+
+.tips-main p {
+    font-family: '黑体';
+    font-size: 16px;
+}
+
+.tips-main .subtitle {
+    font-family: '宋体';
+    margin-bottom: 50px;
+}
+
+.tips-main .verification {
+    color: #f39700;
+    text-decoration: underline;
+}
+
+.tips-main .resend {
+    color: #0068b7
+}
+
+.scan-code {
+    float: right;
+    width: 180px;
+    text-align: center;
+    padding-left: 74px;
+    background: url(../images/register-success-line.png) no-repeat 0 0;
+}
+
+.scan-code p {
+    font-size: 16px;
+    font-family: '宋体';
+    margin: 5px 0 20px;
+}
+
+.tips-main .buy {
+    display: inline-block;
+    width: 93px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: url(../images/sprites.png) -1px -189px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: '黑体';
+    color: #fff;
+    margin-top: 58px;
+}
+
+/*选择碧妮莱的理由*/
+.advantage {
+    padding-bottom: 10px;
+}
+.advantage h3 {
+    font-size: 18px;
+    padding: 0 0 7px 8px;
+    border-bottom: solid 1px #d6d6d6;
+    margin-bottom: 31px;
+}
+
+.advantage ul {
+    overflow: hidden;
+}
+
+.advantage li {
+    width: 164px;
+    float: left;
+    text-align: center;
+}
+
+.advantage i {
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-image: url(../images/advantage.png);
+    background-repeat: no-repeat;
+    margin: 0 auto 9px;
+}
+
+.advantage span {
+    font-size: 14px;
+    color: #545454;
+}
+
+.rich-gifts i {
+    background-position: -70px 0;
+}
+
+.multi-payment i {
+    background-position: -140px 0;
+}
+
+.official-genuine i {
+    background-position: -210px 0;
+}
+
+.free-postage i {
+    background-position: -280px 0;
+}
+
+.integral-sharing i {
+    background-position: -350px 0;
+}

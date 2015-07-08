@@ -1,3 +1,6 @@
+/**
+ * 产品页
+ */
 .product {
   margin: 10px 57px;
   margin-bottom: 91px;
@@ -67,7 +70,7 @@
 	height: 172px;
 	border-bottom: solid 1px #d6d6d6;
 	font-size: 15px;
-	font-family: 黑体;
+	font-family: '黑体';
 	overflow: hidden;
 }
 
@@ -75,7 +78,6 @@
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	margin-right: 5px;
 	background: url(../images/sprites.png);
 	cursor: pointer;
 	border-radius: 2px;

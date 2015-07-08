@@ -1,3 +1,6 @@
+/**
+ * 臻享好礼
+ */
 .gift-item {
     padding: 20px 0;
     border-top: solid 1px #000;
@@ -76,7 +79,7 @@
     height: 25px;
     line-height: 25px;
     text-align: center;
-    background: url(../images/sprites.png) -1px -162px;
+    background: url(../images/sprites.png) -1px -189px;
     cursor: pointer;
     font-size: 15px;
     font-family: '黑体';
