@@ -1,6 +1,6 @@
 .process {
 	margin: 10px 63px;
-	margin-bottom: 91px;
+	margin-bottom: 46px;
 }
 
 .process-head {
@@ -279,4 +279,185 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
+}
+
+.process-rec {
+	width: 271px;
+	height: 445px;
+	background: #d4eed8;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.process-rec-con {
+	width: 246px;
+	height: 394px;
+	border-radius: 3px;
+	background: #fff;
+	margin-left: 12px;
+	padding-top: 3px;
+}
+
+.process-rec-title {
+	margin-left: 12px;
+	height: 37px;
+	line-height: 42px;
+	font-family: "Microsoft YaHei";
+	font-size: 15px;
+}
+
+.process-rec-item {
+	height: 131px;
+	width: 220px;
+	padding-left: 111px;
+	border-bottom: solid 1px #ece9e2;
+	margin-left: 6px;
+	position: relative;
+	overflow: hidden;
+	font-family: "Microsoft YaHei";
+}
+
+.process-rec-item img {
+	position: absolute;
+	left: 23px;
+	top: 20px;
+	width: 60px;
+	height: 60px;
+}
+
+.process-rec-name {
+	width: 99px;
+	margin-top: 16px;
+}
+
+.process-rec-size {
+	color: #989797;
+}
+
+.process-rec-prize {
+	margin-top: 2px;
+}
+
+.process-rec-button {
+	cursor: pointer;
+	width: 84px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	font-family: 黑体;
+	background: url(../images/sprites.png);
+	background-position: -126px -293px;
+	margin-top: 6px;
+}
+
+.process-help {
+	width: 231px;
+	padding-left: 18px;
+	padding-right: 22px;
+	height: 383px;
+	background: #d4eed8;
+	border-radius: 3px;
+	margin-top: 18px;
+	font-family: "Microsoft YaHei";
+}
+
+.process-help-title {
+	height: 51px;
+	line-height: 58px;
+	font-size: 25px;
+}
+
+.process-help-phone {
+	height: 75px;
+	line-height: 75px;
+	padding-left: 69px;
+	font-size: 21px;
+	border-top: solid 1px #afafaf;
+	border-bottom: solid 1px #afafaf;
+	position: relative;
+}
+
+.process-phoneicon {
+	position: absolute;
+	width: 36px;
+	height: 32px;
+	background: url(../images/sprites.png);
+	background-position: -194px -202px;
+	top: 17px;
+	left: 8px;
+}
+
+.process-help-safe {
+	height: 113px;
+	border-bottom: solid 1px #afafaf;
+	overflow: hidden;
+}
+
+.process-help-safe-title {
+	margin-top: 14px;
+	padding-left: 5px;
+	font-size: 19px;
+}
+
+.process-help-safe-info {
+	color: #7a817b;
+	padding-left: 8px;
+	font-family: tahoma;
+	margin-bottom: 12px;
+}
+
+.process-unionpay {
+	display: inline-block;
+	width: 55px;
+	height: 33px;
+	background: url(../images/sprites.png);
+	background-position: -67px -292px;
+	margin-left: 5px;
+}
+
+.process-alipay {
+	display: inline-block;
+	width: 55px;
+	height: 33px;
+	background: url(../images/sprites.png);
+	background-position: -7px -291px;	
+	margin-left: 9px;
+}
+
+.process-flow-title {
+	margin-top: 15px;
+	font-size: 19px;
+	padding-left: 6px;
+}
+
+.process-flow-line1 {
+	width: 174px;
+	padding-left: 55px;
+	position: relative;
+}
+
+.process-caricon {
+	width: 36px;
+	height: 21px;
+	background: url(../images/sprites.png);
+	background-position: -62px -261px;	
+	position: absolute;
+	left: 6px;
+	top: 6px;
+}
+
+.process-flow-line2 {
+	margin-top: 20px;
+	padding-left: 55px;
+	position: relative;
+}
+
+.process-dayicon {
+	width: 25px;
+	height: 25px;
+	background: url(../images/sprites.png);
+	background-position: -126px -194px;	
+	position: absolute;
+	left: 14px;
+	top: -7px;	
 }
