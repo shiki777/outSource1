@@ -22,7 +22,7 @@
 
 .process-left {
 	float: left;
-	width: 631px;
+	width: 654px;
 }
 
 .process-right {
@@ -34,6 +34,7 @@
 	height: 60px;
 	padding-left: 112px;
 	position: relative;
+	margin-bottom: 50px;
 }
 
 .process-mylist-item img {
@@ -88,10 +89,194 @@
 
 .process-mylist-item-close {
 	position: absolute;
-	right: 0;
+	right: 22px;
 	top: 17px;
 	width: 13px;
 	height: 13px;
 	cursor: pointer;
 	background: url(../images/sprites.png) -161px -202px;
+}
+
+.process-pay {
+	width: 654px;
+	height: 141px;
+	background: url(../images/process_bg.png);
+	margin-top: 35px;
+	position: relative;
+}
+
+.process-pay-title {
+	height: 50px;
+	line-height: 50px;
+	font-family: "Microsoft YaHei";
+	font-size: 21px;
+	padding-left: 23px;
+	margin-bottom: 13px;
+}
+
+.process-pay-title span {
+	float: right;
+	margin-right: 122px;
+}
+
+.process-line {
+	padding-left: 23px;
+	font-size: 18px;
+	font-family: 黑体;
+}
+
+.process-line span {
+	float: right;
+	margin-right: 127px;
+}
+
+.process-line input {
+	width: 18px;
+	height: 18px;
+	border: solid 1px #6e6f6f;
+	position: relative;
+	top: 3px;
+	margin-right: 20px;
+}
+
+.process-confirm {
+	border-top: solid 3px #000;
+	margin-top: 9px;
+	padding-top: 28px;
+}
+
+.process-confirm-left {
+	float: left;
+	width: 314px;
+}
+
+.process-confirm-right {
+	float: right;
+}
+
+.process-confirm-code {
+	width: 314px;
+	height: 101px;
+	border-radius: 5px;
+	background: #d4eed8;
+	position: relative;
+}
+
+.process-confirm-code1 {
+	position: absolute;
+	top: 20px;
+	left: 24px;
+	font-size: 18px;
+	font-family: 黑体;
+}
+
+.process-confirm-code input {
+	border: 0;
+	width: 195px;
+	height: 32px;
+	line-height: 32px;
+	position: absolute;
+	top: 47px;
+	left: 23px;
+}
+
+.process-confirm-button {
+	height: 26px;
+	width: 62px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 17px;
+	font-family: 黑体;	
+	background: url(../images/sprites.png) -111px -258px;
+	bottom: 25px;
+	right: 24px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.process-confirm-qrcode {
+	height: 68px;
+	padding-top: 31px;
+	padding-left: 145px;
+	padding-right: 38px;
+	width: 131px;
+	margin-top: 9px;
+	border-radius: 5px;
+	background: #d4eed8;
+	font-family: tahoma;
+	font-size: 14px;
+	position: relative;
+}
+
+.process-qrcode {
+	width: 78px;
+	height: 78px;
+	top: 11px;
+	left: 42px;
+	position: absolute;
+}
+
+.process-confirm-right {
+	width: 314px;
+	height: 206px;
+	position: relative;
+}
+
+.process-confirm-total {
+	border-top: solid 1px #a4a4a4;
+	border-bottom: solid 1px #a4a4a4;
+	height: 65px;
+	padding-top: 19px;
+}
+
+.process-confirm-line {
+	font-family: "Microsoft YaHei";
+	font-size: 17px;
+	padding-left: 19px;
+}
+
+.process-confirm-line span {
+	float: right;
+	margin-right: 39px;
+}
+
+.process-confirm-prize {
+	font-size: 25px;
+	font-family: "Microsoft YaHei";
+	margin-top: 18px;
+}
+
+.process-confirm-prize span {
+	float: right;
+	margin-right: 16px;
+	padding-left: 19px;
+}
+
+.process-gopurchase {
+	cursor: pointer;
+	height: 35px;
+	line-height: 35px;
+	width: 120px;
+	text-align: center;
+	background: url(../images/sprites.png);
+	background-position: -99px -116px;
+	font-size: 19px;
+	font-family: 黑体;
+	color: #808080;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.process-purchase {
+	cursor: pointer;
+	height: 35px;
+	line-height: 35px;
+	width: 136px;
+	text-align: center;
+	background: url(../images/sprites.png);
+	background-position: -99px -157px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
