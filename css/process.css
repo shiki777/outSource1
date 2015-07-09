@@ -1,0 +1,97 @@
+.process {
+	margin: 10px 63px;
+	margin-bottom: 91px;
+}
+
+.process-head {
+	width: 976px;
+	height: 38px;
+	background: url(../images/process1.png);
+}
+
+.process-title {
+	margin-top: 22px;
+	font-family: "Microsoft YaHei";
+	font-size: 25px;
+	border-bottom: solid 1px #b6b6b6;
+}
+
+.process-con {
+	margin-top: 41px;
+}
+
+.process-left {
+	float: left;
+	width: 631px;
+}
+
+.process-right {
+	float: right;
+	width: 271px;
+}
+
+.process-mylist-item {
+	height: 60px;
+	padding-left: 112px;
+	position: relative;
+}
+
+.process-mylist-item img {
+	position: absolute;
+	left: 23px;
+	top: 0;
+	border:0;
+	width: 60px;
+	height: 60px;
+}
+
+.process-mylist-item-info {
+	width: 200px;
+	margin-top: 8px;
+	font-family: "Microsoft YaHei";
+	display: inline-block;
+}
+
+.process-mylist-item-name {
+	font-size: 17px;
+}
+
+.process-mylist-item-size {
+	color: #5a5a5a;
+}
+
+.process-mylist-item label {
+	margin-left: 18px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	top: 13px;
+}
+
+.process-mylist-item select {
+	border-radius: 3px;
+	border: solid 1px #d4d4d4;
+	color: #939393;
+	width: 52px;
+	height: 21px;	
+}
+
+.process-mylist-item-price {
+	display: inline-block;
+	margin-left: 107px;
+	vertical-align: top;
+	position: relative;
+	top: 13px;
+	font-family: "Microsoft YaHei";
+	font-size: 17px;	
+}
+
+.process-mylist-item-close {
+	position: absolute;
+	right: 0;
+	top: 17px;
+	width: 13px;
+	height: 13px;
+	cursor: pointer;
+	background: url(../images/sprites.png) -161px -202px;
+}
