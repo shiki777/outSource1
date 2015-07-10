@@ -237,9 +237,95 @@
             <!-- nav end -->
             <!-- 购买流程 -->
             <div class="process process-2">
-                <div class="process-head"></div>
+                <div class="process-head">发票信息</div>
                 <div class="process-title">支付方式及送货信息</div>
                 <div class="process-con clearfix">
+                    <div class="process-left">
+                        <form action="" class="process2-form">
+                            <div class="process-form-item">地址名称*<input type="text" name="address"><label for="address"></label></div>
+                            <div class="process-form-item">省份*
+                                <select name="province" id="province">
+                                    <option value="1">浙江</option>
+                                    <option value="2">苏州</option>
+                                    <option value="3">四川</option>
+                                </select>
+                            </div>
+                            <div class="process-form-item">姓名*<input type="text" name="address"><label for="address"></label></div>
+                            <div class="process-form-item">
+                                <select name="province" id="province">
+                                    <option value="1">杭州</option>
+                                    <option value="2">嘉兴</option>
+                                    <option value="3">湖州</option>
+                                </select>
+                            </div>
+                            <div class="process-form-item">手机号码*<input type="text" name="phone"><label for="address"></label></div>
+                            <div class="process-form-item">详细地址*<input type="text" name="detail"><label for="address"></label></div>
+                            <div class="process-form-item">邮编*<input type="text" name="post"><label for="address"></label></div>
+                            <div class="process-form-tip">*为必填内容</div>
+                            <div class="process-form2-button" id="process-form2-button"></div>
+                        </form>
+                        <div class="process-bill">
+                            <div class="process-bill-title"></div>
+                            <div class="process-bill-select">
+                                <input type="radio" name="bill" id="bill">不需要发票
+                                <input type="radio" name="bill" id="bill">需要发票（寄送至送货地址）
+                                <input type="radio" name="bill" id="bill">需要发票（寄送至新地址）
+                            </div>
+                        </div>
+                        <div class="process2-pay">
+                            <div class="process2-title">支付方式</div>
+                            <div class="process2-line1"><i></i>在线支付</div>
+                            <div class="process2-line2">所有合作支付平台和网银均已获得安全认证，请放心支付</div>
+                            <div class="process2-select">
+                                <div class="process2-select-title"><span>未开通网银<a href="#">点击此处</a></span>银行卡在线支付（支持大额支付）</div>
+                                <div class="process2-select-item">
+                                    <input type="radio" name="bank"/><i class="process-bank gsbank"></i>
+                                    <input type="radio" name="bank"/><i class="process-bank nybank"></i>
+                                    <input type="radio" name="bank"/><i class="process-bank yzbank"></i>
+                                    <input type="radio" name="bank"/><i class="process-bank jsbank"></i>
+                                    <input type="radio" name="bank"/><i class="process-bank zsbank"></i>
+                                    <input type="radio" name="bank"/><i class="process-bank jtbank"></i>
+                                    <div class="process2-more" id="process2-more">查看更多银行<i></i></div>
+                                </div>
+                                <div class="process2-title">账号支付</div>
+                                <input type="radio" name="bank"/><i class="process-bank alipay"></i>
+                            </div>
+                            <div class="process2-bottom">
+                                <div class="process2-back-button">返回上一步</div>
+                                <div class="process2-go-button">继续支付</div>
+                                您将使用第三方安全支付平台付款
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process-right">
+                        <div class="process-help">
+                            <div class="process-help-title">购物帮助指南</div>
+                            <div class="process-help-phone"><i class="process-phoneicon"></i>021-67660621</div>
+                            <div class="process-feed-sum">
+                                <div class="process-feed-title">订单总结</div>
+                                <div class="process-feed-con">
+                                    <ul>
+                                        <li class="process-feed-item"><div class="process-feed-name">·碧妮莱戴维面膜100ml</div><span>¥ 328</span></li>
+                                        <li class="process-feed-item"><div class="process-feed-name">·碧妮莱戴维面膜100ml</div><span>¥ 328</span></li>
+                                    </ul>
+                                    <div class="process-feed-transform"><span>免费</span>运费</div>
+                                    <div class="process-feed-cost"><span>¥ 328</span>总计：</div>
+                                    <div class="process-feed-button">查看详情</div>
+                                </div>
+                            </div>
+                            <div class="process-help-safe">
+                                <div class="process-help-safe-title">支付安全保障</div>
+                                <div class="process-help-safe-info">安全支付系统采用SSL加密。</div>
+                                <a href="#" target="_blank" class="process-unionpay"></a>
+                                <a href="#" target="_blank" class="process-alipay"></a>
+                            </div>
+                            <div class="process-flow">
+                                <div class="process-flow-title">全国配送</div>
+                                <div class="process-flow-line1"><i class="process-caricon"></i>快递可至全国各地（宅急送、圆通、顺丰、联邦快递、EMS等）</div>
+                                <div class="process-flow-line2"><i class="process-dayicon"></i>快递2至6日正常送达全国</div>
+                            </div>
+                        </div>                        
+                    </div>
                 </div>
             </div>
         </div>
