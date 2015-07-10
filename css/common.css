@@ -429,7 +429,7 @@ body {
     color: #000;
 }
 
-.trail a{
+.trail a {
     color: #000;
 }
 
@@ -511,4 +511,47 @@ body {
 
 .pagination-next {
     background-position: -211px -1px;
+}
+
+/*按钮*/
+.grey-btn,
+.yellow-btn {
+    display: inline-block;
+    width: 93px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: url(../images/sprites.png) -1px -134px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: '黑体';
+    color: #000;
+}
+
+.yellow-btn {
+    background-position: -1px -162px;
+    color: #fff;
+}
+
+/*对话框*/
+.dialog {
+    position: fixed;
+    z-index: 99999;
+    background: #fff;
+    width: 818px;
+    left: 50%;
+    top: 50%;
+    margin-left: -409px;
+    box-shadow: 0 0 13px 3px rgba(168, 168, 168, 0.53);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dialog-close {
+    position: absolute;
+    background: url(../images/sprites.png) no-repeat -223px -1px;
+    width: 19px;
+    height: 19px;
+    top: 14px;
+    right: 33px;
 }

@@ -1,463 +1,516 @@
+.process-mylist-item-close,
+.process-confirm-button,
+.big-grey-btn,
+.big-yellow-btn,
+.process-purchase,
+.process-rec-button,
+.process-phoneicon,
+.process-unionpay,
+.process-alipay,
+.process-caricon,
+.process-dayicon,
+.process-3 h2 {
+    background-image: url(../images/sprites.png);
+    background-repeat: no-repeat;
+}
+
+.big-grey-btn,
+.big-yellow-btn{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    text-align: center;
+    background-position: -99px -116px;
+    font-size: 19px;
+    font-family: '黑体';
+    color: #808080;
+}
+
+.big-yellow-btn{
+    width: 136px;
+    background-position: -99px -157px;
+    text-align: left;
+    text-indent: 24px;
+    color: #fff;
+}
+
 .process {
-	margin: 10px 63px;
-	margin-bottom: 46px;
+    margin: 10px 63px;
+    margin-bottom: 46px;
 }
 
 .process-head {
-	width: 976px;
-	height: 38px;
-	background: url(../images/process1.png);
+    width: 976px;
+    height: 38px;
+    background: url(../images/process.png);
 }
 
 .process-title {
-	margin-top: 22px;
-	font-family: "Microsoft YaHei";
-	font-size: 25px;
-	border-bottom: solid 1px #b6b6b6;
+    margin-top: 22px;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    border-bottom: solid 1px #b6b6b6;
 }
 
 .process-con {
-	margin-top: 41px;
+    margin-top: 41px;
 }
 
 .process-left {
-	float: left;
-	width: 654px;
+    float: left;
+    width: 654px;
 }
 
 .process-right {
-	float: right;
-	width: 271px;
+    float: right;
+    width: 271px;
 }
 
+/*process1*/
 .process-mylist-item {
-	height: 60px;
-	padding-left: 112px;
-	position: relative;
-	margin-bottom: 50px;
+    height: 60px;
+    padding-left: 112px;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .process-mylist-item img {
-	position: absolute;
-	left: 23px;
-	top: 0;
-	border:0;
-	width: 60px;
-	height: 60px;
+    position: absolute;
+    left: 23px;
+    top: 0;
+    border: 0;
+    width: 60px;
+    height: 60px;
 }
 
 .process-mylist-item-info {
-	width: 200px;
-	margin-top: 8px;
-	font-family: "Microsoft YaHei";
-	display: inline-block;
+    width: 200px;
+    margin-top: 8px;
+    font-family: "Microsoft YaHei";
+    display: inline-block;
 }
 
 .process-mylist-item-name {
-	font-size: 17px;
+    font-size: 17px;
 }
 
 .process-mylist-item-size {
-	color: #5a5a5a;
+    color: #5a5a5a;
 }
 
 .process-mylist-item label {
-	margin-left: 18px;
-	display: inline-block;
-	vertical-align: top;
-	position: relative;
-	top: 13px;
+    margin-left: 18px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 13px;
 }
 
 .process-mylist-item select {
-	border-radius: 3px;
-	border: solid 1px #d4d4d4;
-	color: #939393;
-	width: 52px;
-	height: 21px;	
+    border-radius: 3px;
+    border: solid 1px #d4d4d4;
+    color: #939393;
+    width: 52px;
+    height: 21px;
 }
 
 .process-mylist-item-price {
-	display: inline-block;
-	margin-left: 107px;
-	vertical-align: top;
-	position: relative;
-	top: 13px;
-	font-family: "Microsoft YaHei";
-	font-size: 17px;	
+    display: inline-block;
+    margin-left: 107px;
+    vertical-align: top;
+    position: relative;
+    top: 13px;
+    font-family: "Microsoft YaHei";
+    font-size: 17px;
 }
 
 .process-mylist-item-close {
-	position: absolute;
-	right: 22px;
-	top: 17px;
-	width: 13px;
-	height: 13px;
-	cursor: pointer;
-	background: url(../images/sprites.png) -161px -202px;
+    position: absolute;
+    right: 22px;
+    top: 17px;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    background-position: -161px -202px;
 }
 
 .process-pay {
-	width: 654px;
-	height: 141px;
-	background: url(../images/process_bg.png);
-	margin-top: 35px;
-	position: relative;
+    width: 654px;
+    height: 141px;
+    background: url(../images/process_bg.png);
+    margin-top: 35px;
+    position: relative;
 }
 
 .process-pay-title {
-	height: 50px;
-	line-height: 50px;
-	font-family: "Microsoft YaHei";
-	font-size: 21px;
-	padding-left: 23px;
-	margin-bottom: 13px;
+    height: 50px;
+    line-height: 50px;
+    font-family: "Microsoft YaHei";
+    font-size: 21px;
+    padding-left: 23px;
+    margin-bottom: 13px;
 }
 
 .process-pay-title span {
-	float: right;
-	margin-right: 122px;
+    float: right;
+    margin-right: 122px;
 }
 
 .process-line {
-	padding-left: 23px;
-	font-size: 18px;
-	font-family: 黑体;
+    padding-left: 23px;
+    font-size: 18px;
+    font-family: '黑体';
 }
 
 .process-line span {
-	float: right;
-	margin-right: 127px;
+    float: right;
+    margin-right: 127px;
 }
 
 .process-line input {
-	width: 18px;
-	height: 18px;
-	border: solid 1px #6e6f6f;
-	position: relative;
-	top: 3px;
-	margin-right: 20px;
+    width: 18px;
+    height: 18px;
+    border: solid 1px #6e6f6f;
+    position: relative;
+    top: 3px;
+    margin-right: 20px;
 }
 
 .process-confirm {
-	border-top: solid 3px #000;
-	margin-top: 9px;
-	padding-top: 28px;
+    border-top: solid 3px #000;
+    margin-top: 9px;
+    padding-top: 28px;
 }
 
 .process-confirm-left {
-	float: left;
-	width: 314px;
+    float: left;
+    width: 314px;
 }
 
 .process-confirm-right {
-	float: right;
+    float: right;
 }
 
 .process-confirm-code {
-	width: 314px;
-	height: 101px;
-	border-radius: 5px;
-	background: #d4eed8;
-	position: relative;
+    width: 314px;
+    height: 101px;
+    border-radius: 5px;
+    background: #d4eed8;
+    position: relative;
 }
 
 .process-confirm-code1 {
-	position: absolute;
-	top: 20px;
-	left: 24px;
-	font-size: 18px;
-	font-family: 黑体;
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    font-size: 18px;
+    font-family: '黑体';
 }
 
 .process-confirm-code input {
-	border: 0;
-	width: 195px;
-	height: 32px;
-	line-height: 32px;
-	position: absolute;
-	top: 47px;
-	left: 23px;
+    border: 0;
+    width: 195px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 47px;
+    left: 23px;
 }
 
 .process-confirm-button {
-	height: 26px;
-	width: 62px;
-	line-height: 26px;
-	text-align: center;
-	font-size: 17px;
-	font-family: 黑体;	
-	background: url(../images/sprites.png) -111px -258px;
-	bottom: 25px;
-	right: 24px;
-	position: absolute;
-	cursor: pointer;
+    height: 26px;
+    width: 62px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 17px;
+    font-family: '黑体';
+    background-position: -111px -258px;
+    bottom: 25px;
+    right: 24px;
+    position: absolute;
+    cursor: pointer;
 }
 
 .process-confirm-qrcode {
-	height: 68px;
-	padding-top: 31px;
-	padding-left: 145px;
-	padding-right: 38px;
-	width: 131px;
-	margin-top: 9px;
-	border-radius: 5px;
-	background: #d4eed8;
-	font-family: tahoma;
-	font-size: 14px;
-	position: relative;
+    height: 68px;
+    padding-top: 31px;
+    padding-left: 145px;
+    padding-right: 38px;
+    width: 131px;
+    margin-top: 9px;
+    border-radius: 5px;
+    background: #d4eed8;
+    font-family: tahoma;
+    font-size: 14px;
+    position: relative;
 }
 
 .process-qrcode {
-	width: 78px;
-	height: 78px;
-	top: 11px;
-	left: 42px;
-	position: absolute;
+    width: 78px;
+    height: 78px;
+    top: 11px;
+    left: 42px;
+    position: absolute;
 }
 
 .process-confirm-right {
-	width: 314px;
-	height: 206px;
-	position: relative;
+    width: 314px;
+    height: 206px;
+    position: relative;
 }
 
 .process-confirm-total {
-	border-top: solid 1px #a4a4a4;
-	border-bottom: solid 1px #a4a4a4;
-	height: 65px;
-	padding-top: 19px;
+    border-top: solid 1px #a4a4a4;
+    border-bottom: solid 1px #a4a4a4;
+    height: 65px;
+    padding-top: 19px;
 }
 
 .process-confirm-line {
-	font-family: "Microsoft YaHei";
-	font-size: 17px;
-	padding-left: 19px;
+    font-family: "Microsoft YaHei";
+    font-size: 17px;
+    padding-left: 19px;
 }
 
 .process-confirm-line span {
-	float: right;
-	margin-right: 39px;
+    float: right;
+    margin-right: 39px;
 }
 
 .process-confirm-prize {
-	font-size: 25px;
-	font-family: "Microsoft YaHei";
-	margin-top: 18px;
+    font-size: 25px;
+    font-family: "Microsoft YaHei";
+    margin-top: 18px;
 }
 
 .process-confirm-prize span {
-	float: right;
-	margin-right: 16px;
-	padding-left: 19px;
+    float: right;
+    margin-right: 16px;
+    padding-left: 19px;
 }
 
 .process-gopurchase {
-	cursor: pointer;
-	height: 35px;
-	line-height: 35px;
-	width: 120px;
-	text-align: center;
-	background: url(../images/sprites.png);
-	background-position: -99px -116px;
-	font-size: 19px;
-	font-family: 黑体;
-	color: #808080;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .process-purchase {
-	cursor: pointer;
-	height: 35px;
-	line-height: 35px;
-	width: 136px;
-	text-align: center;
-	background: url(../images/sprites.png);
-	background-position: -99px -157px;
-	position: absolute;
-	bottom: 0;
-	right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .process-rec {
-	width: 271px;
-	height: 445px;
-	background: #d4eed8;
-	border-radius: 3px;
-	overflow: hidden;
+    width: 271px;
+    height: 445px;
+    background: #d4eed8;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 .process-rec-con {
-	width: 246px;
-	height: 394px;
-	border-radius: 3px;
-	background: #fff;
-	margin-left: 12px;
-	padding-top: 3px;
+    width: 246px;
+    height: 394px;
+    border-radius: 3px;
+    background: #fff;
+    margin-left: 12px;
+    padding-top: 3px;
 }
 
 .process-rec-title {
-	margin-left: 12px;
-	height: 37px;
-	line-height: 42px;
-	font-family: "Microsoft YaHei";
-	font-size: 15px;
+    margin-left: 12px;
+    height: 37px;
+    line-height: 42px;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
 }
 
 .process-rec-item {
-	height: 131px;
-	width: 220px;
-	padding-left: 111px;
-	border-bottom: solid 1px #ece9e2;
-	margin-left: 6px;
-	position: relative;
-	overflow: hidden;
-	font-family: "Microsoft YaHei";
+    height: 131px;
+    width: 220px;
+    padding-left: 111px;
+    border-bottom: solid 1px #ece9e2;
+    margin-left: 6px;
+    position: relative;
+    overflow: hidden;
+    font-family: "Microsoft YaHei";
 }
 
 .process-rec-item img {
-	position: absolute;
-	left: 23px;
-	top: 20px;
-	width: 60px;
-	height: 60px;
+    position: absolute;
+    left: 23px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
 }
 
 .process-rec-name {
-	width: 99px;
-	margin-top: 16px;
+    width: 99px;
+    margin-top: 16px;
 }
 
 .process-rec-size {
-	color: #989797;
+    color: #989797;
 }
 
 .process-rec-prize {
-	margin-top: 2px;
+    margin-top: 2px;
 }
 
 .process-rec-button {
-	cursor: pointer;
-	width: 84px;
-	height: 23px;
-	line-height: 23px;
-	text-align: center;
-	font-family: 黑体;
-	background: url(../images/sprites.png);
-	background-position: -126px -293px;
-	margin-top: 6px;
+    cursor: pointer;
+    width: 84px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-family: '黑体';
+    background-position: -126px -293px;
+    margin-top: 6px;
 }
 
 .process-help {
-	width: 231px;
-	padding-left: 18px;
-	padding-right: 22px;
-	height: 383px;
-	background: #d4eed8;
-	border-radius: 3px;
-	margin-top: 18px;
-	font-family: "Microsoft YaHei";
+    width: 231px;
+    padding-left: 18px;
+    padding-right: 22px;
+    height: 383px;
+    background: #d4eed8;
+    border-radius: 3px;
+    margin-top: 18px;
+    font-family: "Microsoft YaHei";
 }
 
 .process-help-title {
-	height: 51px;
-	line-height: 58px;
-	font-size: 25px;
+    height: 51px;
+    line-height: 58px;
+    font-size: 25px;
 }
 
 .process-help-phone {
-	height: 75px;
-	line-height: 75px;
-	padding-left: 69px;
-	font-size: 21px;
-	border-top: solid 1px #afafaf;
-	border-bottom: solid 1px #afafaf;
-	position: relative;
+    height: 75px;
+    line-height: 75px;
+    padding-left: 69px;
+    font-size: 21px;
+    border-top: solid 1px #afafaf;
+    border-bottom: solid 1px #afafaf;
+    position: relative;
 }
 
 .process-phoneicon {
-	position: absolute;
-	width: 36px;
-	height: 32px;
-	background: url(../images/sprites.png);
-	background-position: -194px -202px;
-	top: 17px;
-	left: 8px;
+    position: absolute;
+    width: 36px;
+    height: 32px;
+    background-position: -194px -202px;
+    top: 17px;
+    left: 8px;
 }
 
 .process-help-safe {
-	height: 113px;
-	border-bottom: solid 1px #afafaf;
-	overflow: hidden;
+    height: 113px;
+    border-bottom: solid 1px #afafaf;
+    overflow: hidden;
 }
 
 .process-help-safe-title {
-	margin-top: 14px;
-	padding-left: 5px;
-	font-size: 19px;
+    margin-top: 14px;
+    padding-left: 5px;
+    font-size: 19px;
 }
 
 .process-help-safe-info {
-	color: #7a817b;
-	padding-left: 8px;
-	font-family: tahoma;
-	margin-bottom: 12px;
+    color: #7a817b;
+    padding-left: 8px;
+    font-family: tahoma;
+    margin-bottom: 12px;
 }
 
 .process-unionpay {
-	display: inline-block;
-	width: 55px;
-	height: 33px;
-	background: url(../images/sprites.png);
-	background-position: -67px -292px;
-	margin-left: 5px;
+    display: inline-block;
+    width: 55px;
+    height: 33px;
+    background-position: -67px -292px;
+    margin-left: 5px;
 }
 
 .process-alipay {
-	display: inline-block;
-	width: 55px;
-	height: 33px;
-	background: url(../images/sprites.png);
-	background-position: -7px -291px;	
-	margin-left: 9px;
+    display: inline-block;
+    width: 55px;
+    height: 33px;
+    background-position: -7px -291px;
+    margin-left: 9px;
 }
 
 .process-flow-title {
-	margin-top: 15px;
-	font-size: 19px;
-	padding-left: 6px;
+    margin-top: 15px;
+    font-size: 19px;
+    padding-left: 6px;
 }
 
 .process-flow-line1 {
-	width: 174px;
-	padding-left: 55px;
-	position: relative;
+    width: 174px;
+    padding-left: 55px;
+    position: relative;
 }
 
 .process-caricon {
-	width: 36px;
-	height: 21px;
-	background: url(../images/sprites.png);
-	background-position: -62px -261px;	
-	position: absolute;
-	left: 6px;
-	top: 6px;
+    width: 36px;
+    height: 21px;
+    background-position: -62px -261px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
 }
 
 .process-flow-line2 {
-	margin-top: 20px;
-	padding-left: 55px;
-	position: relative;
+    margin-top: 20px;
+    padding-left: 55px;
+    position: relative;
 }
 
 .process-dayicon {
-	width: 25px;
-	height: 25px;
-	background: url(../images/sprites.png);
-	background-position: -126px -194px;	
-	position: absolute;
-	left: 14px;
-	top: -7px;	
+    width: 25px;
+    height: 25px;
+    background-position: -126px -194px;
+    position: absolute;
+    left: 14px;
+    top: -7px;
+}
+
+/*process2*/
+.process-2 .process-head {
+    background-position: 0 -39px;
+}
+
+/*process3*/
+.process-3{
+    margin-bottom: 102px;
+}
+.process-3 .process-head {
+    background-position: 0 -78px;
+}
+
+.process-3 h2 {
+    color: #fcbf1d;
+    font-size: 32px;
+    padding-left: 64px;
+    background-position: -451px -311px;
+    margin: 0 0 20px 285px;
+}
+
+.process-3 .order-info {
+    font-size: 20px;
+    line-height: 46px;
+    margin: 0 0 60px 315px;
+}
+
+.process-3 .order-info label {
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.process-3 .big-grey-btn{
+    margin: 0 260px 0 225px;
 }

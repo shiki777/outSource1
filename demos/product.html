@@ -9,409 +9,507 @@
 </head>
 
 <body>
-    <div class="container">
-        <!--头部-->
-        <div class="header">
-            <div class="header-inner">
-                <div class="search-form">
-                    <form>
-                        <label>
-                            <input type="text" id="">
-                        </label>
-                        <button type="submit" id="search" name="search">搜索</button>
+<div class="container">
+<!--头部-->
+<div class="header">
+    <div class="header-inner">
+        <div class="search-form">
+            <form>
+                <label>
+                    <input type="text" id="">
+                </label>
+                <button type="submit" id="search" name="search">搜索</button>
+            </form>
+        </div>
+        <ul class="header-nav">
+            <li class="header-nav-item login">
+                <a href="javascript:;" id="login-btn" class="header-nav-link">登录</a>
+
+                <div class="login-form">
+                    <form action="" method="post" id="login-form">
+                        <div class="login-form-item">
+                            <label for="username" class="fl">用户名：</label>
+                            <input type="text" id="username" name="username" placeholder="邮箱/手机号" class="txt">
+                        </div>
+                        <div class="login-form-item">
+                            <label for="password" class="fl">密码：</label>
+                            <input type="text" id="password" name="password" placeholder="密码" class="txt">
+                        </div>
+                        <div class="login-form-item">
+                            <div class="fl">
+                                <input type="checkbox" id="remember" name="remember">
+                            </div>
+                            <label for="remember">记住用户名</label>
+                        </div>
+                        <div class="submit-panel">
+                            <a href="#" target="_blank">忘记登录密码？</a>
+                            <button type="submit">登录</button>
+                        </div>
                     </form>
                 </div>
-                <ul class="header-nav">
-                    <li class="header-nav-item login">
-                        <a href="javascript:;" id="login-btn" class="header-nav-link">登录</a>
-                        <div class="login-form">
-                            <form action="" method="post" id="login-form">
-                                <div class="login-form-item">
-                                    <label for="username" class="fl">用户名：</label>
-                                    <input type="text" id="username" name="username" placeholder="邮箱/手机号" class="txt">
-                                </div>
-                                <div class="login-form-item">
-                                    <label for="password" class="fl">密码：</label>
-                                    <input type="text" id="password" name="password" placeholder="密码" class="txt">
-                                </div>
-                                <div class="login-form-item">
-                                    <div class="fl">
-                                        <input type="checkbox" id="remember" name="remember">
-                                    </div>
-                                    <label for="remember">记住用户名</label>
-                                </div>
-                                <div class="submit-panel">
-                                    <a href="#" target="_blank">忘记登录密码？</a>
-                                    <button type="submit">登录</button>
-                                </div>
-                            </form>
-                        </div>
-                    </li>
-                    <li class="header-nav-split"></li>
-                    <li class="header-nav-item">
-                        <a href="#" class="header-nav-link">注册</a>
-                    </li>
-                    <li class="header-nav-split"></li>
-                    <li class="header-nav-item">
-                        <a href="" class="header-nav-link">免费试用</a>
-                    </li>
-                    <li class="header-nav-split"></li>
-                    <li class="header-nav-item shopping-cart">
-                        <a href="" class="header-nav-link">购物车<em>0</em><i></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--end 头部-->
-        <div class="main">
-            <!-- nav -->
-            <div class="nav">
-                <ul class="nav-inner">
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">最新产品</a>
-                        <div class="sub-nav">
-                            <a href="#" target="_blank" class="txt">暂无</a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">明星产品</a>
-                        <div class="sub-nav">
-                            <a href="#" target="_blank" class="txt">戴维面膜</a>
-                            <a href="#" target="_blank" class="txt">身体磨砂膏</a>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-08.jpg" alt="碧妮莱">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">产品系列</a>
-                        <div class="sub-nav sub-nav-col-2">
-                            <a href="#" target="_blank" class="txt">面膜系列</a>
-                            <a href="#" target="_blank" class="txt">清爽洁面系列</a>
-                            <a href="#" target="_blank" class="txt">奢华CV系列</a>
-                            <a href="#" target="_blank" class="txt">特色泥盐系列</a>
-                            <a href="#" target="_blank" class="txt">面部唤活系列</a>
-                            <a href="#" target="_blank" class="txt">男士护理系列</a>
-                            <a href="#" target="_blank" class="txt">眼部精华系列</a>
-                            <a href="#" target="_blank" class="txt">专业药妆系列</a>
-                            <a href="#" target="_blank" class="txt">身体护理系列</a>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-01.jpg" alt="碧妮莱">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">面部护理</a>
-                        <div class="sub-nav sub-nav-col-2 sub-nav-col-2s">
-                            <div class="clearfix">
-                                <div class="fl">
-                                    <h3 class="txt">产品类型</h3>
-                                    <a href="#" target="_blank" class="txt">面膜</a>
-                                    <a href="#" target="_blank" class="txt">洁面皂</a>
-                                    <a href="#" target="_blank" class="txt">保湿滋润</a>
-                                    <a href="#" target="_blank" class="txt">清洁调理</a>
-                                    <a href="#" target="_blank" class="txt">日间护理</a>
-                                    <a href="#" target="_blank" class="txt">夜间护理</a>
-                                    <a href="#" target="_blank" class="txt">爽肤护理</a>
-                                    <a href="#" target="_blank" class="txt">眼周护</a>
-                                    <a href="#" target="_blank" class="txt">卓效精华</a>
-                                </div>
-                                <div class="fr">
-                                    <h3 class="txt">功能</h3>
-                                    <a href="#" target="_blank" class="txt">祛角质</a>
-                                    <a href="#" target="_blank" class="txt">补水</a>
-                                    <a href="#" target="_blank" class="txt">美白</a>
-                                    <a href="#" target="_blank" class="txt">深层清洁</a>
-                                    <a href="#" target="_blank" class="txt">抗衰老</a>
-                                    <a href="#" target="_blank" class="txt">眼部</a>
-                                    <a href="#" target="_blank" class="txt">卸妆</a>
-                                </div>
-                            </div>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-02.jpg" alt="戴维面膜">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">身体护理</a>
-                        <div class="sub-nav sub-nav-col-2 sub-nav-col-2s">
-                            <div class="clearfix">
-                                <div class="fl">
-                                    <h3 class="txt">产品类型</h3>
-                                    <a href="#" target="_blank" class="txt">洗发水</a>
-                                    <a href="#" target="_blank" class="txt">沐浴露</a>
-                                    <a href="#" target="_blank" class="txt">身体乳液</a>
-                                    <a href="#" target="_blank" class="txt">按摩精油</a>
-                                    <a href="#" target="_blank" class="txt">护手霜</a>
-                                    <a href="#" target="_blank" class="txt">护脚霜</a>
-                                    <a href="#" target="_blank" class="txt">浴盐</a>
-                                    <a href="#" target="_blank" class="txt">海泥</a>
-                                    <a href="#" target="_blank" class="txt">卓效精华</a>
-                                </div>
-                                <div class="fr">
-                                    <h3 class="txt">功能</h3>
-                                    <a href="#" target="_blank" class="txt">祛角质</a>
-                                    <a href="#" target="_blank" class="txt">去妊娠纹</a>
-                                    <a href="#" target="_blank" class="txt">滋润补水</a>
-                                    <a href="#" target="_blank" class="txt">美白隔离</a>
-                                    <a href="#" target="_blank" class="txt">治疗皮癣</a>
-                                </div>
-                            </div>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-03.jpg" alt="BM死海盐">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">男士护理</a>
-                        <div class="sub-nav sub-nav-col-2 sub-nav-col-2s  sub-nav-col-2ss">
-                            <div class="clearfix">
-                                <div class="fl">
-                                    <h3 class="txt">产品类型</h3>
-                                    <a href="#" target="_blank" class="txt">洁面护理</a>
-                                    <a href="#" target="_blank" class="txt">须后护理</a>
-                                    <a href="#" target="_blank" class="txt">洗发水</a>
-                                    <a href="#" target="_blank" class="txt">沐浴露</a>
-                                    <a href="#" target="_blank" class="txt">身体乳液</a>
-                                </div>
-                                <div class="fr">
-                                    <h3 class="txt">功能</h3>
-                                    <a href="#" target="_blank" class="txt">深层清洁</a>
-                                    <a href="#" target="_blank" class="txt">滋润补水</a>
-                                    <a href="#" target="_blank" class="txt">须后保湿</a>
-                                </div>
-                            </div>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-04.jpg" alt="男士护理系列">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">药妆护理</a>
-                        <div class="sub-nav sub-nav-col-2 sub-nav-col-2s  sub-nav-col-2ss">
-                            <div class="clearfix">
-                                <div class="fl">
-                                    <h3 class="txt">产品类型</h3>
-                                    <a href="#" target="_blank" class="txt">面部治疗</a>
-                                    <a href="#" target="_blank" class="txt">身体治疗</a>
-                                    <a href="#" target="_blank" class="txt">头癣治疗</a>
-                                    <a href="#" target="_blank" class="txt">脚部治疗</a>
-                                </div>
-                                <div class="fr">
-                                    <h3 class="txt">功能</h3>
-                                    <a href="#" target="_blank" class="txt">去湿疹</a>
-                                    <a href="#" target="_blank" class="txt">过敏</a>
-                                    <a href="#" target="_blank" class="txt">疤痕</a>
-                                    <a href="#" target="_blank" class="txt">淡化妊娠纹</a>
-                                    <a href="#" target="_blank" class="txt">治疗皮癣</a>
-                                </div>
-                            </div>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-03.jpg" alt="BM死海盐">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-split"></li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-item-link">臻享好礼</a>
-                        <div class="sub-nav">
-                            <a href="#" target="_blank" class="txt">焕活礼盒</a>
-                            <a href="#" target="_blank" class="txt">抗皱礼盒</a>
-                            <a href="#" target="_blank" class="txt">身体礼盒</a>
-                            <a href="#" target="_blank" class="ad">
-                                <img src="../images/resource/product-08.jpg" alt="碧妮莱">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-housekeeper">
-                        <a href="#" class="nav-item-link">贴心管家</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- nav end -->
-            <!-- 面包屑导航  -->
-            <div class="trail">
-                <a class="crumb" href="#">首页</a><span class="crumb-arrow">></span><a class="crumb" href="#">身体护理</a>
-                <span class="crumb-arrow">></span><a class="crumb" href="#">浴盐</a>
-                <span class="crumb-arrow">></span><span class="crumb">BM死海有盐身体磨砂（香草＋广藿香型）</span>
-            </div>
-            <!-- 面包屑导航 结束 -->
-            <!-- 产品内容 -->
-            <div class="product">
-                <div class="product-detail">
-                    <div class="product-introduction">
-                        <h2>BM死海盐身体磨砂</h2>
-                        <div class="product-introduction-tabs">
-                            <div class="product-introduction-tab product-introduction-tab-current">描述</div>
-                            <div class="product-introduction-tab">所含成分</div>
-                            <div class="product-introduction-tab">使用方法</div>
-                        </div>
-                        <div class="product-introduction-tabcontents">
-                            <div class="product-introduction-tabcontent">高盛预测沪深300指数12个月目标位为5000点。目标0点。目标位较上周五收盘位3885.92点约有29%上涨空间。高盛预测沪深300指数12个月目标位为5000点。目标位较上周五收盘位3885.92点约有29%上涨空间。</div>
-                            <div class="product-introduction-tabcontent" style="display:none;">啊啊啊11</div>
-                            <div class="product-introduction-tabcontent" style="display:none;">啊啊啊</div>
-                        </div>
-                        <div class="product-share">分享到：
-                            <a href="#" onclick=";return false;" class="product-share-icon share-weibo"></a>
-                            <a href="#" onclick=";return false;" class="product-share-icon share-qq"></a>
-                            <a href="#" onclick=";return false;" class="product-share-icon share-weixin"></a>
-                            <a href="#" onclick=";return false;" class="product-share-icon share-renren"></a>
-                            <a href="#" onclick=";return false;" class="product-share-icon share-plus"></a>
-                        </div>
-                    </div>
-                    <div class="product-thumb">
-                    <a href="#" target="_blank">
-                        <img src="../images/product-thumb.jpg" alt="产品">
-                    </a>
-                    </div>
-                    <div class="product-deal">
-                    <form action="#">
-                        <label>规格 
-                        <select name="product-type" id="product-type">
-                            <option value="50">50ml</option>
-                            <option value="60">60ml</option>
-                            <option value="70">70ml</option>
-                            <option value="80">80ml</option>
-                            <option value="90">90ml</option>    
-                        </select> 
-                        </label>
-                        <label>数量
-                            <select name="product-num" id="product-num">
-                                <option value="50">50</option>
-                                <option value="60">60</option>
-                                <option value="70">70</option>
-                                <option value="80">80</option>
-                                <option value="90">90</option>    
-                            </select>                            
-                        </label>
-                        <div class="product-deal-center">
-                            <div class="product-deal-price">¥ 278</div>
-                            <div class="product-deal-purchase-button">放入购物车</div>
-                        </div>
-                        <div class="product-deal-bottom">
-                            <div class="rate-stars rate-stars-5"><i></i></div>
-                            <a href="#product-comment">阅读<span>6</span>条评论</a>
-                            <a href="#product-comment" class="product-deal-comment">书写评论</a>
-                        </div>
-                    </form>
-                    </div>
-                </div>
-                <div class="product-banner">
-                    <div class="product-banner-title">
-                        <div class="product-title-tab">产品详情</div>
-                    </div>
-                    <a href="#" target="_blank">
-                    <img src="../images/product-banner.jpg" alt="产品预览">
-                   </a>
-               </div>
-                <div class="product-comment" id="product-comment">
-                    <div class="product-comment-title">
-                       <a href="#" onclick=";return false;" class="product-comment-go">我要评论</a>
-                       <div class="product-title-tab">产品评论</div>
-                   </div>
-                    <div class="product-comment-con">
-                        <div class="product-comment-item">
-                            <div class="product-comment-item-panel">
-                                 <div class="rate-stars rate-stars-5"><i></i></div>
-                                 <div class="product-comment-item-panel-username">匿名用户</div>
-                                 <div class="product-comment-item-panel-date">2015-6-24</div>
-                            </div>
-                            <div class="product-comment-item-content">
-                                <div class="product-comment-item-content-line1">今日早盘，两市双双低开，沪指持续震荡下跌，盘中一度跌破3700、3600点两关口，再创本轮调整新低3585.40点，11点5分左右探底回升跌幅收窄，盘面来看，保险与银行股争相拉升护盘，但效果并不明显；午后开盘，沪指小幅回升，个股方面，两市逾1700股跌停，创业板内仅8股上涨，题材股重挫；临近盘尾，在权重股带动下，沪指重回3700点。</div>
-                                <div class="product-comment-item-content-line2">
-                                    这条评论对您有用吗？ 
-                                    <a href="#" onclick=";return false;" class="product-comment-item-content-useful">(24)是</a>
-                                    <a href="#" onclick=";return false;" class="product-comment-item-content-useless">(12)否</a>                                
-                                </div>
-                                <div class="product-share">
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-weibo"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-qq"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-weixin"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-renren"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-plus"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-comment-item">
-                            <div class="product-comment-item-panel">
-                                 <div class="rate-stars rate-stars-5"><i></i></div>
-                                 <div class="product-comment-item-panel-username">匿名用户</div>
-                                 <div class="product-comment-item-panel-date">2015-6-24</div>
-                            </div>
-                            <div class="product-comment-item-content">
-                                <div class="product-comment-item-content-line1">我要买中石油</div>
-                                <div class="product-comment-item-content-line2">
-                                    这条评论对您有用吗？ 
-                                    <a href="#" onclick=";return false;" class="product-comment-item-content-useful">(24)是</a>
-                                    <a href="#" onclick=";return false;" class="product-comment-item-content-useless">(12)否</a>                                
-                                </div>
-                                <div class="product-share">
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-weibo"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-qq"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-weixin"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-renren"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-plus"></a>
-                                </div>
-                            </div>
-                        </div>          
-                        <div class="product-comment-item">
-                            <div class="product-comment-item-panel">
-                                 <div class="rate-stars rate-stars-5"><i></i></div>
-                                 <div class="product-comment-item-panel-username">匿名用户</div>
-                                 <div class="product-comment-item-panel-date">2015-6-24</div>
-                            </div>
-                            <div class="product-comment-item-content">
-                                <div class="product-comment-item-content-line1">我要买中石油</div>
-                                <div class="product-comment-item-content-line2">
-                                    这条评论对您有用吗？ 
-                                    <a href="#" onclick=";return false;" class="product-comment-item-content-useful">(24)是</a>
-                                    <a href="#" onclick=";return false;" class="product-comment-item-content-useless">(12)否</a>                                
-                                </div>
-                                <div class="product-share">
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-weibo"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-qq"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-weixin"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-renren"></a>
-                                    <a href="#" onclick=";return false;" class="product-share-icon share-plus"></a>
-                                </div>
-                            </div>
-                        </div>                                       
-                    </div>
-                </div>
-                <div class="pagination">
-                    <a href="#" class="pagination-prev"></a>
-                    <input type="text" class="pagination-input" value="1">/
-                    <span class="pagination-total">5</span>
-                    <a href="#" class="pagination-next"></a>
-                </div>
-            </div>
-            <!-- 产品内容结束 -->
-        </div>
-        <!--尾部-->
-        <div class="footer">
-            <div class="links">
-                <a href="#">关于BM</a>
-                <a href="#">帮助中心</a>
-                <a href="#">联系我们</a>
-                <span>官方订购热线：021-67660621</span>
-                <span>地址：上海市松江区广富林路658弄万达写字楼1号楼1402室</span>
-            </div>
-            <p class="copyright">©亿加（上海）化妆品有限公司版权所有</p>
-        </div>
-        <!--end 尾部-->
+            </li>
+            <li class="header-nav-split"></li>
+            <li class="header-nav-item">
+                <a href="#" class="header-nav-link">注册</a>
+            </li>
+            <li class="header-nav-split"></li>
+            <li class="header-nav-item">
+                <a href="" class="header-nav-link">免费试用</a>
+            </li>
+            <li class="header-nav-split"></li>
+            <li class="header-nav-item shopping-cart">
+                <a href="" class="header-nav-link">购物车<em>0</em><i></i></a>
+            </li>
+        </ul>
     </div>
-    <!--脚本-->
-    <script src="../scripts/jquery-1.11.3.min.js"></script>
-    <script src="../scripts/jquery.validate.min.js"></script>
-    <script src="../scripts/common.js"></script>
-    <script src="../scripts/product.js"></script>    
-    <!--end 脚本-->
+</div>
+<!--end 头部-->
+<div class="main">
+<!-- nav -->
+<div class="nav">
+    <ul class="nav-inner">
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">最新产品</a>
+
+            <div class="sub-nav">
+                <a href="#" target="_blank" class="txt">暂无</a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">明星产品</a>
+
+            <div class="sub-nav">
+                <a href="#" target="_blank" class="txt">戴维面膜</a>
+                <a href="#" target="_blank" class="txt">身体磨砂膏</a>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-08.jpg" alt="碧妮莱">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">产品系列</a>
+
+            <div class="sub-nav sub-nav-col-2">
+                <a href="#" target="_blank" class="txt">面膜系列</a>
+                <a href="#" target="_blank" class="txt">清爽洁面系列</a>
+                <a href="#" target="_blank" class="txt">奢华CV系列</a>
+                <a href="#" target="_blank" class="txt">特色泥盐系列</a>
+                <a href="#" target="_blank" class="txt">面部唤活系列</a>
+                <a href="#" target="_blank" class="txt">男士护理系列</a>
+                <a href="#" target="_blank" class="txt">眼部精华系列</a>
+                <a href="#" target="_blank" class="txt">专业药妆系列</a>
+                <a href="#" target="_blank" class="txt">身体护理系列</a>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-01.jpg" alt="碧妮莱">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">面部护理</a>
+
+            <div class="sub-nav sub-nav-col-2 sub-nav-col-2s">
+                <div class="clearfix">
+                    <div class="fl">
+                        <h3 class="txt">产品类型</h3>
+                        <a href="#" target="_blank" class="txt">面膜</a>
+                        <a href="#" target="_blank" class="txt">洁面皂</a>
+                        <a href="#" target="_blank" class="txt">保湿滋润</a>
+                        <a href="#" target="_blank" class="txt">清洁调理</a>
+                        <a href="#" target="_blank" class="txt">日间护理</a>
+                        <a href="#" target="_blank" class="txt">夜间护理</a>
+                        <a href="#" target="_blank" class="txt">爽肤护理</a>
+                        <a href="#" target="_blank" class="txt">眼周护</a>
+                        <a href="#" target="_blank" class="txt">卓效精华</a>
+                    </div>
+                    <div class="fr">
+                        <h3 class="txt">功能</h3>
+                        <a href="#" target="_blank" class="txt">祛角质</a>
+                        <a href="#" target="_blank" class="txt">补水</a>
+                        <a href="#" target="_blank" class="txt">美白</a>
+                        <a href="#" target="_blank" class="txt">深层清洁</a>
+                        <a href="#" target="_blank" class="txt">抗衰老</a>
+                        <a href="#" target="_blank" class="txt">眼部</a>
+                        <a href="#" target="_blank" class="txt">卸妆</a>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-02.jpg" alt="戴维面膜">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">身体护理</a>
+
+            <div class="sub-nav sub-nav-col-2 sub-nav-col-2s">
+                <div class="clearfix">
+                    <div class="fl">
+                        <h3 class="txt">产品类型</h3>
+                        <a href="#" target="_blank" class="txt">洗发水</a>
+                        <a href="#" target="_blank" class="txt">沐浴露</a>
+                        <a href="#" target="_blank" class="txt">身体乳液</a>
+                        <a href="#" target="_blank" class="txt">按摩精油</a>
+                        <a href="#" target="_blank" class="txt">护手霜</a>
+                        <a href="#" target="_blank" class="txt">护脚霜</a>
+                        <a href="#" target="_blank" class="txt">浴盐</a>
+                        <a href="#" target="_blank" class="txt">海泥</a>
+                        <a href="#" target="_blank" class="txt">卓效精华</a>
+                    </div>
+                    <div class="fr">
+                        <h3 class="txt">功能</h3>
+                        <a href="#" target="_blank" class="txt">祛角质</a>
+                        <a href="#" target="_blank" class="txt">去妊娠纹</a>
+                        <a href="#" target="_blank" class="txt">滋润补水</a>
+                        <a href="#" target="_blank" class="txt">美白隔离</a>
+                        <a href="#" target="_blank" class="txt">治疗皮癣</a>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-03.jpg" alt="BM死海盐">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">男士护理</a>
+
+            <div class="sub-nav sub-nav-col-2 sub-nav-col-2s  sub-nav-col-2ss">
+                <div class="clearfix">
+                    <div class="fl">
+                        <h3 class="txt">产品类型</h3>
+                        <a href="#" target="_blank" class="txt">洁面护理</a>
+                        <a href="#" target="_blank" class="txt">须后护理</a>
+                        <a href="#" target="_blank" class="txt">洗发水</a>
+                        <a href="#" target="_blank" class="txt">沐浴露</a>
+                        <a href="#" target="_blank" class="txt">身体乳液</a>
+                    </div>
+                    <div class="fr">
+                        <h3 class="txt">功能</h3>
+                        <a href="#" target="_blank" class="txt">深层清洁</a>
+                        <a href="#" target="_blank" class="txt">滋润补水</a>
+                        <a href="#" target="_blank" class="txt">须后保湿</a>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-04.jpg" alt="男士护理系列">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">药妆护理</a>
+
+            <div class="sub-nav sub-nav-col-2 sub-nav-col-2s  sub-nav-col-2ss">
+                <div class="clearfix">
+                    <div class="fl">
+                        <h3 class="txt">产品类型</h3>
+                        <a href="#" target="_blank" class="txt">面部治疗</a>
+                        <a href="#" target="_blank" class="txt">身体治疗</a>
+                        <a href="#" target="_blank" class="txt">头癣治疗</a>
+                        <a href="#" target="_blank" class="txt">脚部治疗</a>
+                    </div>
+                    <div class="fr">
+                        <h3 class="txt">功能</h3>
+                        <a href="#" target="_blank" class="txt">去湿疹</a>
+                        <a href="#" target="_blank" class="txt">过敏</a>
+                        <a href="#" target="_blank" class="txt">疤痕</a>
+                        <a href="#" target="_blank" class="txt">淡化妊娠纹</a>
+                        <a href="#" target="_blank" class="txt">治疗皮癣</a>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-03.jpg" alt="BM死海盐">
+                </a>
+            </div>
+        </li>
+        <li class="nav-split"></li>
+        <li class="nav-item">
+            <a href="#" class="nav-item-link">臻享好礼</a>
+
+            <div class="sub-nav">
+                <a href="#" target="_blank" class="txt">焕活礼盒</a>
+                <a href="#" target="_blank" class="txt">抗皱礼盒</a>
+                <a href="#" target="_blank" class="txt">身体礼盒</a>
+                <a href="#" target="_blank" class="ad">
+                    <img src="../images/resource/product-08.jpg" alt="碧妮莱">
+                </a>
+            </div>
+        </li>
+        <li class="nav-housekeeper">
+            <a href="#" class="nav-item-link">贴心管家</a>
+        </li>
+    </ul>
+</div>
+<!-- nav end -->
+<!-- 面包屑导航  -->
+<div class="trail">
+    <a class="crumb" href="#">首页</a><span class="crumb-arrow">></span><a class="crumb" href="#">身体护理</a>
+    <span class="crumb-arrow">></span><a class="crumb" href="#">浴盐</a>
+    <span class="crumb-arrow">></span><span class="crumb">BM死海有盐身体磨砂（香草＋广藿香型）</span>
+</div>
+<!-- 面包屑导航 结束 -->
+<!-- 产品内容 -->
+<div class="product">
+    <div class="product-detail">
+        <div class="product-introduction">
+            <h2>BM死海盐身体磨砂</h2>
+
+            <div class="product-introduction-tabs">
+                <div class="product-introduction-tab product-introduction-tab-current">描述</div>
+                <div class="product-introduction-tab">所含成分</div>
+                <div class="product-introduction-tab">使用方法</div>
+            </div>
+            <div class="product-introduction-tabcontents">
+                <div class="product-introduction-tabcontent">
+                    高盛预测沪深300指数12个月目标位为5000点。目标0点。目标位较上周五收盘位3885.92点约有29%上涨空间。高盛预测沪深300指数12个月目标位为5000点。目标位较上周五收盘位3885.92点约有29%上涨空间。
+                </div>
+                <div class="product-introduction-tabcontent" style="display:none;">啊啊啊11</div>
+                <div class="product-introduction-tabcontent" style="display:none;">啊啊啊</div>
+            </div>
+            <div class="product-share">分享到：
+                <a href="#" onclick=";return false;" class="product-share-icon share-weibo"></a>
+                <a href="#" onclick=";return false;" class="product-share-icon share-qq"></a>
+                <a href="#" onclick=";return false;" class="product-share-icon share-weixin"></a>
+                <a href="#" onclick=";return false;" class="product-share-icon share-renren"></a>
+                <a href="#" onclick=";return false;" class="product-share-icon share-plus"></a>
+            </div>
+        </div>
+        <div class="product-thumb">
+            <a href="#" target="_blank">
+                <img src="../images/resource/product-thumb.jpg" alt="产品">
+            </a>
+        </div>
+        <div class="product-deal">
+            <form action="#">
+                <label>规格
+                    <select name="product-type" id="product-type">
+                        <option value="50">50ml</option>
+                        <option value="60">60ml</option>
+                        <option value="70">70ml</option>
+                        <option value="80">80ml</option>
+                        <option value="90">90ml</option>
+                    </select>
+                </label>
+                <label>数量
+                    <select name="product-num" id="product-num">
+                        <option value="50">50</option>
+                        <option value="60">60</option>
+                        <option value="70">70</option>
+                        <option value="80">80</option>
+                        <option value="90">90</option>
+                    </select>
+                </label>
+
+                <div class="product-deal-center">
+                    <div class="product-deal-price">¥ 278</div>
+                    <a href="javascript:;" class="product-deal-purchase-button yellow-btn">放入购物车</a>
+                </div>
+                <div class="product-deal-bottom">
+                    <div class="rate-stars rate-stars-5"><i></i></div>
+                    <a href="#product-comment">阅读<span>6</span>条评论</a>
+                    <a href="#product-comment" class="product-deal-comment">书写评论</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="product-banner">
+        <div class="product-banner-title">
+            <div class="product-title-tab">产品详情</div>
+        </div>
+        <a href="#" target="_blank">
+            <img src="../images/product-banner.jpg" alt="产品预览">
+        </a>
+    </div>
+    <div class="product-comment" id="product-comment">
+        <div class="product-comment-title">
+            <a href="#" onclick=";return false;" class="product-comment-go">我要评论</a>
+
+            <div class="product-title-tab">产品评论</div>
+        </div>
+        <div class="product-comment-con">
+            <div class="product-comment-item">
+                <div class="product-comment-item-panel">
+                    <div class="rate-stars rate-stars-5"><i></i></div>
+                    <div class="product-comment-item-panel-username">匿名用户</div>
+                    <div class="product-comment-item-panel-date">2015-6-24</div>
+                </div>
+                <div class="product-comment-item-content">
+                    <div class="product-comment-item-content-line1">
+                        今日早盘，两市双双低开，沪指持续震荡下跌，盘中一度跌破3700、3600点两关口，再创本轮调整新低3585.40点，11点5分左右探底回升跌幅收窄，盘面来看，保险与银行股争相拉升护盘，但效果并不明显；午后开盘，沪指小幅回升，个股方面，两市逾1700股跌停，创业板内仅8股上涨，题材股重挫；临近盘尾，在权重股带动下，沪指重回3700点。
+                    </div>
+                    <div class="product-comment-item-content-line2">
+                        这条评论对您有用吗？
+                        <a href="#" onclick=";return false;" class="product-comment-item-content-useful">(24)是</a>
+                        <a href="#" onclick=";return false;" class="product-comment-item-content-useless">(12)否</a>
+                    </div>
+                    <div class="product-share">
+                        <a href="#" onclick=";return false;" class="product-share-icon share-weibo"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-qq"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-weixin"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-renren"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-plus"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-comment-item">
+                <div class="product-comment-item-panel">
+                    <div class="rate-stars rate-stars-5"><i></i></div>
+                    <div class="product-comment-item-panel-username">匿名用户</div>
+                    <div class="product-comment-item-panel-date">2015-6-24</div>
+                </div>
+                <div class="product-comment-item-content">
+                    <div class="product-comment-item-content-line1">我要买中石油</div>
+                    <div class="product-comment-item-content-line2">
+                        这条评论对您有用吗？
+                        <a href="#" onclick=";return false;" class="product-comment-item-content-useful">(24)是</a>
+                        <a href="#" onclick=";return false;" class="product-comment-item-content-useless">(12)否</a>
+                    </div>
+                    <div class="product-share">
+                        <a href="#" onclick=";return false;" class="product-share-icon share-weibo"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-qq"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-weixin"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-renren"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-plus"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-comment-item">
+                <div class="product-comment-item-panel">
+                    <div class="rate-stars rate-stars-5"><i></i></div>
+                    <div class="product-comment-item-panel-username">匿名用户</div>
+                    <div class="product-comment-item-panel-date">2015-6-24</div>
+                </div>
+                <div class="product-comment-item-content">
+                    <div class="product-comment-item-content-line1">我要买中石油</div>
+                    <div class="product-comment-item-content-line2">
+                        这条评论对您有用吗？
+                        <a href="#" onclick=";return false;" class="product-comment-item-content-useful">(24)是</a>
+                        <a href="#" onclick=";return false;" class="product-comment-item-content-useless">(12)否</a>
+                    </div>
+                    <div class="product-share">
+                        <a href="#" onclick=";return false;" class="product-share-icon share-weibo"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-qq"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-weixin"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-renren"></a>
+                        <a href="#" onclick=";return false;" class="product-share-icon share-plus"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <a href="#" class="pagination-prev"></a>
+        <input type="text" class="pagination-input" value="1">/
+        <span class="pagination-total">5</span>
+        <a href="#" class="pagination-next"></a>
+    </div>
+</div>
+<!-- 产品内容结束 -->
+</div>
+<!--尾部-->
+<div class="footer">
+    <div class="links">
+        <a href="#">关于BM</a>
+        <a href="#">帮助中心</a>
+        <a href="#">联系我们</a>
+        <span>官方订购热线：021-67660621</span>
+        <span>地址：上海市松江区广富林路658弄万达写字楼1号楼1402室</span>
+    </div>
+    <p class="copyright">©亿加（上海）化妆品有限公司版权所有</p>
+</div>
+<!--end 尾部-->
+</div>
+
+<div class="dialog cart-dialog">
+    <a href="javascript:;" class="dialog-close"></a>
+
+    <div class="cart-dialog-inner">
+        <form>
+            <div class="cart-products">
+                <h3>最新加入购物车的产品</h3>
+                <ul>
+                    <li>
+                        <a href="#" target="_blank" class="picture">
+                            <img src="../images/resource/process-thumb.png" alt="碧妮莱">
+                        </a>
+
+                        <div class="info">
+                            <a href="#">碧妮莱戴维面膜</a>
+                            <span>100ml</span>
+                        </div>
+                        <span class="price">¥ 328</span>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="picture">
+                            <img src="../images/resource/process-thumb.png" alt="碧妮莱">
+                        </a>
+
+                        <div class="info">
+                            <a href="#">碧妮莱戴维面膜</a>
+                            <span>100ml</span>
+                        </div>
+                        <span class="price">¥ 328</span>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="picture">
+                            <img src="../images/resource/process-thumb.png" alt="碧妮莱">
+                        </a>
+
+                        <div class="info">
+                            <a href="#">碧妮莱戴维面膜</a>
+                            <span>100ml</span>
+                        </div>
+                        <span class="price">¥ 328</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="order-form">
+                <h3>订单总结</h3>
+
+                <div class="num">您的购物中共有 <em>3</em> 件产品</div>
+                <div class="price">
+                    <span class="fl">产品价格：</span>
+                    <span class="fr">¥ 328</span></div>
+                <div class="freight">
+                    <span class="fl">运费：</span>
+                    <span class="fr">免费</span>
+                </div>
+                <p class="tips">恭喜您本次购物免运费</p>
+
+                <div class="total">
+                    <span class="fl">总计：</span>
+                    <span class="fr">¥ 328</span>
+                </div>
+                <div class="handle">
+                    <a href="#" class="grey-btn">继续购物</a>
+                    <a href="#" class="yellow-btn">立即结算</a>
+                </div>
+                <div class="scan-code">
+                    <img src="../images/2d-code.png" alt="二维码">
+                    <span>碧妮莱邀您码上扫<br>立享惊喜好礼</span>
+                </div>
+                <div class="advartage">
+                    <h4>安全便捷的官网购物</h4>
+                    <ul>
+                        <li>唯一网上销售官方渠道</li>
+                        <li>专享产品和服务</li>
+                        <li>快递2至6日正常送达全国</li>
+                        <li>美丽顾问全程专属服务</li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!--脚本-->
+<script src="../scripts/jquery-1.11.3.min.js"></script>
+<script src="../scripts/jquery.validate.min.js"></script>
+<script src="../scripts/common.js"></script>
+<script src="../scripts/product.js"></script>
+<!--end 脚本-->
 </body>
 
 </html>

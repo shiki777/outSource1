@@ -14,4 +14,14 @@
 		var index = tabs.index(ele);
 		contents.eq(index).show().siblings().hide();
 	}
-})()
+
+    //对话框范例
+    $('.dialog-close').click(function () {
+        $(this).parent().hide();
+    });
+
+    $('.product-deal-purchase-button').click(function (e) {
+        $('.cart-dialog').show();
+        e.stopPropagation();
+    }).click();
+})();

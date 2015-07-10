@@ -2,290 +2,413 @@
  * 产品页
  */
 .product {
-  margin: 10px 57px;
-  margin-bottom: 91px;
+    margin: 10px 57px;
+    margin-bottom: 91px;
 }
 
 .product-detail {
-	height: 331px;
-	margin-top: 40px;
+    height: 331px;
+    margin-top: 40px;
 }
 
 .product-banner {
-	display: block;
-	height: 403px;
-	margin-top: 16px;
+    display: block;
+    height: 403px;
+    margin-top: 16px;
 }
 
 .product-comment {
-	height: 390px;
-	margin-top: 46px;
+    height: 390px;
+    margin-top: 46px;
 }
 
 .product-introduction {
-	float: left;
-	width: 294px;
+    float: left;
+    width: 294px;
 }
 
 .product-thumb {
-	width: 463px;
-	float: left;
-	height: 100%;
+    width: 463px;
+    float: left;
+    height: 100%;
 }
 
 .product-deal {
-	width: 225px;
-	float: left;
-	padding-top: 80px;
+    width: 225px;
+    float: left;
+    padding-top: 80px;
 }
 
 .product-introduction h2 {
-	font-size: 32px;
-	font-family: "Microsoft YaHei";
+    font-size: 32px;
+    font-family: "Microsoft YaHei";
 }
 
 .product-introduction-tabs {
-	height: 32px;
-	line-height: 30px;
-	overflow: hidden;
-	width: 236px;
+    height: 32px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 236px;
 }
 
 .product-introduction-tab {
-	float: left;
-	font-size: 16px;
-	font-family: 黑体;
-	border-bottom: solid 4px #d6d6d6;
-	width: 78px;
-	text-align: center;
-	cursor: pointer;
+    float: left;
+    font-size: 16px;
+    font-family: '黑体';
+    border-bottom: solid 4px #d6d6d6;
+    width: 78px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .product-introduction-tab-current {
-	border-bottom-color: #66b38a;
+    border-bottom-color: #66b38a;
 }
 
 .product-introduction-tabcontent {
-	width: 236px;
-	height: 172px;
-	border-bottom: solid 1px #d6d6d6;
-	font-size: 15px;
-	font-family: '黑体';
-	overflow: hidden;
+    width: 236px;
+    height: 172px;
+    border-bottom: solid 1px #d6d6d6;
+    font-size: 15px;
+    font-family: '黑体';
+    overflow: hidden;
 }
 
 .product-share-icon {
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background: url(../images/sprites.png);
-	cursor: pointer;
-	border-radius: 2px;
-	vertical-align: top;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/sprites.png);
+    cursor: pointer;
+    border-radius: 2px;
+    vertical-align: top;
 }
 
 .share-weibo {
-	background-position: -1px -223px;
+    background-position: -1px -223px;
 }
 
 .share-qq {
-	background-position: -24px -224px;
+    background-position: -24px -224px;
 }
 
 .share-weixin {
-	background-position: -8px -251px;
+    background-position: -8px -251px;
 }
 
 .share-renren {
-	width: 32px;
-	height: 19px;
-	background-position: -51px -228px;
+    width: 32px;
+    height: 19px;
+    background-position: -51px -228px;
 }
 
 .share-plus {
-	background-position: -29px -258px;
+    background-position: -29px -258px;
 }
 
 .product-share {
-	margin-top: 5px;
+    margin-top: 5px;
 }
 
 .product-thumb img {
-	margin: 0 auto;
-	border: 0;
-	margin-top: 120px;
-	display: block;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 120px;
+    display: block;
 }
 
 .product-deal label {
-	display: block;
-	font-size: 15px;
-	font-family: "Microsoft YaHei";
-	line-height: 35px;
-	height: 35px;
-	letter-spacing: 4px;
+    display: block;
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+    line-height: 35px;
+    height: 35px;
+    letter-spacing: 4px;
 }
 
 .product-deal select {
-	margin-left: 15px;
-	border: solid 1px #d4d4d4;
-	color: #939393;
-	border-radius: 3px;
+    margin-left: 15px;
+    border: solid 1px #d4d4d4;
+    color: #939393;
+    border-radius: 3px;
 }
 
 .product-deal-center {
-	border-top: solid 1px #d6d6d6;
-	margin-top: 7px;
-	height: 122px;
-	border-bottom: solid 1px #d6d6d6;
+    border-top: solid 1px #d6d6d6;
+    margin-top: 7px;
+    height: 122px;
+    border-bottom: solid 1px #d6d6d6;
 }
 
 .product-deal-price {
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: bold;
-	margin-top: 30px;
-	padding-left: 3px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-left: 3px;
 }
 
 .product-deal-purchase-button {
-	cursor: pointer;
-	background: url(../images/sprites.png);
-	background-position: -1px -162px;
-	width: 93px;
-	height: 25px;
-	line-height: 25px;
-	font-size: 15px;
-	color: #fff;
-	font-family: 黑体;
-	text-align: center;
-	margin-top: 12px;
-	padding-left: 3px;
+    display: block;
+    margin-top: 12px;
 }
 
 .product-deal-bottom {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .product-deal-bottom .rate-stars {
-	display: inline-block;
+    display: inline-block;
 }
 
 .product-deal-bottom a {
-	color: #262626;
-	font-family: tahoma;
+    color: #262626;
+    font-family: tahoma;
 }
 
 .product-deal-bottom a span {
-	color: #74b993;
-	margin: 0 2px;
+    color: #74b993;
+    margin: 0 2px;
 }
 
 .product-deal-comment {
-	border-left: solid 1px #d6d6d6;
-	padding-left: 5px;
+    border-left: solid 1px #d6d6d6;
+    padding-left: 5px;
 }
 
 .product-banner-title {
-	width: 100%;
-	border-bottom: solid 1px #d6d6d6;
+    width: 100%;
+    border-bottom: solid 1px #d6d6d6;
 }
 
 .product-title-tab {
-	width: 104px;
-	font-family: "Microsoft YaHei";
-	font-size: 18px;
-	text-align: center;
-	height: 32px;
-	line-height: 32px;
-	position: relative;
-	z-index: 10;
-	background: url(../images/sprites.png) -86px -221px;
-	border-bottom: solid 1px #fff;
-	top: 1px;
+    width: 104px;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    z-index: 10;
+    background: url(../images/sprites.png) -86px -221px;
+    border-bottom: solid 1px #fff;
+    top: 1px;
 }
 
 .product-banner img {
-	margin-top: 13px;
-	height: 339px;
-	width: 100%;
-	border: 0;
+    margin-top: 13px;
+    height: 339px;
+    width: 100%;
+    border: 0;
 }
 
 .product-comment-title {
-	width: 100%;
-	border-bottom: solid 1px #d6d6d6;
+    width: 100%;
+    border-bottom: solid 1px #d6d6d6;
 }
 
 .product-comment-go {
-	float: right;
-	background: url(../images/sprites.png) -1px -189px;
-	width: 93px;
-	height: 25px;
-	line-height: 25px;
-	font-size: 15px;
-	color: #fff;
-	font-family: 黑体;
-	text-align: center;	
+    float: right;
+    background: url(../images/sprites.png) -1px -189px;
+    width: 93px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 黑 体;
+    text-align: center;
 }
 
 .product-comment-item {
-	height: 119px;
-	padding-left: 242px;
-	border-bottom: solid 1px #d6d6d6;
-	position: relative;
-	overflow: hidden;
+    height: 119px;
+    padding-left: 242px;
+    border-bottom: solid 1px #d6d6d6;
+    position: relative;
+    overflow: hidden;
 }
 
 .product-comment-item-panel {
-	position: absolute;
-	width: 236px;
-	text-align: center;
-	height: 67px;
-	bottom: 27px;
-	left: 0;
+    position: absolute;
+    width: 236px;
+    text-align: center;
+    height: 67px;
+    bottom: 27px;
+    left: 0;
 }
 
 .product-comment-item-panel  .rate-stars {
-	margin: 0 auto;
-	margin-top: 9px;
+    margin: 0 auto;
+    margin-top: 9px;
 }
 
 .product-comment-item-panel-username {
-	margin-top: 11px;
-	font-family: 黑体;
+    margin-top: 11px;
+    font-family: 黑 体;
 }
 
 .product-comment-item-panel-date {
-	margin-top: 0px;
-	color: #6a6a6a;
-	font-family: Arial;
+    margin-top: 0px;
+    color: #6a6a6a;
+    font-family: Arial;
 }
 
 .product-comment-item-content {
-	font-family: 黑体;
+    font-family: 黑 体;
 }
 
 .product-comment-item-content-line1 {
-	height: 35px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	margin-top: 32px;
+    height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 32px;
 }
 
 .product-comment-item-content-line2 {
-	color: #787777;
-	margin-top: 6px;
+    color: #787777;
+    margin-top: 6px;
 }
 
 .product-comment-item-content-line2 a {
-	color: #787777;
-	text-decoration: underline;
-	margin-left: 25px;
+    color: #787777;
+    text-decoration: underline;
+    margin-left: 25px;
 }
 
 .product-comment-item .product-share {
-	position: absolute;
-	bottom: 30px;
-	right: 0;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+
+/*购物车*/
+.cart-dialog {
+    display: none;
+    height: 630px;
+    margin-top: -315px;
+}
+
+.cart-dialog h3 {
+    font-size: 25px;
+    padding-top: 36px;
+    border-bottom: solid 1px #c8c8ca;
+}
+
+.cart-products {
+    margin-left: 33px;
+    float: left;
+    width: 480px;
+}
+
+.cart-products li {
+    height: 60px;
+    padding: 25px 0;
+    border-top: solid 1px #c8c8ca;
+    margin-top: -1px;
+}
+
+.cart-products .picture {
+    float: left;
+}
+
+.cart-products .info {
+    float: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.cart-products .info a {
+    font-size: 16px;
+    display: block;
+    width: 275px;
+    color: #000;
+}
+
+.cart-products .info span {
+    color: #5a5a5a;
+}
+
+.cart-products .price {
+    font-size: 15px;
+    float: right;
+    padding-top: 30px;
+}
+
+.cart-dialog .order-form {
+    float: right;
+    height: 630px;
+    width: 200px;
+    padding: 0 38px 0 37px;
+    background: #ecf8ee;
+}
+
+.cart-dialog .order-form .num {
+    font-size: 15px;
+    font-family: '宋体';
+    margin: 10px 0 18px;
+}
+
+.cart-dialog .order-form .num em{
+    font-weight: bold;
+}
+
+.cart-dialog   .price, .cart-dialog  .freight {
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.cart-dialog   .tips {
+    color: #8a8a8a;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #dcdcdc;
+    margin-bottom: 7px;
+}
+
+.cart-dialog  .total {
+    font-size: 20px;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+.cart-dialog  .handle {
+    margin-bottom: 20px;
+}
+
+.cart-dialog  .yellow-btn {
+    margin-left: 10px;
+}
+
+.cart-dialog .scan-code {
+    background: #fff;
+    padding: 8px;
+    text-align: center;
+    height: 73px;
+    margin-bottom: 32px;
+    border-radius: 4px;
+}
+
+.cart-dialog .scan-code img {
+    width: 73px;
+    height: 73px;
+    float: left;
+}
+
+.cart-dialog .scan-code span {
+    display: block;
+    padding-top: 17px;
+    font-family: '宋体';
+}
+
+.cart-dialog h4 {
+    font-size: 18px;
+    color: #010101;
+    margin-bottom: 6px;
+}
+
+.cart-dialog .advartage ul {
+    background: #fff url(../images/sprites.png) no-repeat -464px -350px;
+    padding: 15px 0 15px 47px;
+    color: #b2b3b2;
+    line-height: 30px;
+    border-radius: 4px;
 }
