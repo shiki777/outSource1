@@ -13,6 +13,7 @@
 .process2-line1-icon,
 .process-bank,
 .process2-more-icon,
+.process2-less-icon,
 .process2-back-button,
 .process2-go-button,
 .process-feed-button,
@@ -728,6 +729,19 @@
 	font-family: 黑体;
 	right: 29px;
 	top: 128px;
+	cursor: pointer;
+}
+
+.process2-less {
+	position: absolute;
+	width: 96px;
+	height: 15px;
+	line-height: 15px;
+	font-family: 黑体;
+	right: 29px;
+	top: 128px;
+	cursor: pointer;	
+	display: none;
 }
 
 .process2-more-icon {
@@ -738,6 +752,16 @@
 	top: 0;
 	background-position: -223px -117px;
 	cursor: pointer;
+}
+
+.process2-less-icon {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-position: -224px -135px;
+	cursor: pointer;	
 }
 
 .process2-select-title2 {
@@ -865,6 +889,22 @@
 	background-position: -126px -320px;
 	margin-left: 114px;
 	margin-top: 13px;
+}
+
+.process2-form  label{
+	display: inline-block;
+	width: 36px;
+	color: red;
+	position: absolute;
+	top: 0;
+	right: -40px;
+}
+
+.process2-more-bank-con {
+	position: absolute;
+	width: 360px;
+	right: -70px;
+	display: none;
 }
 
 /*process3*/
