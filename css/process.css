@@ -10,6 +10,12 @@
 .process-caricon,
 .process-dayicon,
 .process-form2-button,
+.process2-line1-icon,
+.process-bank,
+.process2-more-icon,
+.process2-back-button,
+.process2-go-button,
+.process-feed-button,
 .process-3 h2 {
     background-image: url(../images/sprites.png);
     background-repeat: no-repeat;
@@ -172,7 +178,6 @@
 .process-line input {
     width: 18px;
     height: 18px;
-    border: solid 1px #6e6f6f;
     position: relative;
     top: 3px;
     margin-right: 20px;
@@ -581,17 +586,285 @@
 .process-bill-select-item {
 	display: inline-block;
 	margin-right: 32px;
+	margin-right: 25px\0;
 }
 
 .process-bill-select-item input {
 	width: 18px;
 	height: 18px;
-	border: solid 1px #6c6d6c;
 	vertical-align: top;
 	margin-right: 12px;
 	position: relative;
 	top: 2px;
 	background: #fff;
+}
+
+.process2-pay {
+	padding: 0 23px 0 21px;
+	height: 416px;
+	margin-top: 32px;
+	background: url(../images/process-bg1.png) no-repeat #d3edd7;
+}
+
+.process2-title {
+	font-size: 21px;
+	font-family: "Microsoft YaHei";
+	margin-top: 6px;
+	height: 44px;
+	line-height: 44px;
+	border-bottom: solid 1px #a4a4a4;
+}
+
+.process2-line1 {
+	height: 20px;
+	line-height: 26px;
+	margin-top: 12px;
+	font-size: 15px;
+	font-family: 黑体;
+	padding-left: 28px;
+	position: relative;
+}
+
+.process2-line1-icon {
+	position: absolute;
+	left: 4px;
+	top: 0;
+	background-position: -104px -197px;
+	width: 13px;
+	height: 20px;
+}
+
+.process2-line2 {
+	margin-top: 12px;
+	font-size: 15px;
+	font-family: 黑体;	
+}
+
+.process2-select {
+	width: 585px;
+	height: 259px;
+	background: #fff;
+	border-right: solid 1px #ebf7ed;
+	margin-top: 20px;
+	padding-left: 24px;
+	overflow: hidden;
+	position: relative;
+}
+
+.process2-select-title {
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+.process2-select-title span {
+	float: right;
+	margin-right: 34px;
+}
+
+.process2-select-title a {
+	font-size: 12px;
+	color: #fdd071;
+	margin-left: 5px;
+}
+
+.process2-select-item {
+	margin-top: 20px;
+	margin-right: 23px;
+	width: 120px;
+	height: 27px;
+	line-height: 27px;
+	position: relative;
+	display: inline-block;
+}
+
+.process2-select-item input {
+	width: 15px;
+	height: 15px;
+	vertical-align: top;
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+}
+
+.process-bank {
+	width: 94px;
+	height: 27px;
+	display: inline-block;
+}
+
+.gsbank {
+	background-position: -217px -88px;
+}
+
+.nybank {
+	background-position: -217px -26px;
+}
+
+.yzbank {
+	background-position: -217px -57px;
+}
+
+.jsbank {
+	background-position: -316px -88px;
+}
+
+.zsbank {
+	background-position: -315px -26px;
+}
+
+.jtbank {
+	background-position: -316px -118px;
+}
+
+.alipay {
+	background-position: -316px -57px;
+}
+
+.process2-more {
+	position: absolute;
+	width: 96px;
+	height: 15px;
+	line-height: 15px;
+	font-family: 黑体;
+	right: 29px;
+	top: 128px;
+}
+
+.process2-more-icon {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-position: -223px -117px;
+	cursor: pointer;
+}
+
+.process2-select-title2 {
+	font-size: 17px;
+	margin-top: 25px;
+}
+
+.process2-select-last {
+	margin-top: 14px;
+}
+
+.process2-bottom {
+	margin-top: 26px;
+	border-top: solid 2px #000;
+	padding-top: 14px;
+	padding-left: 318px;
+	position: relative;
+	left: 4px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.process2-back-button {
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 19px;
+	font-family: 黑体;
+	background-position: -2px -331px;
+	left: -9px;
+	top: 14px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.process2-go-button {
+	width: 136px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #fff;
+	background-position: -99px -157px;
+	font-size: 19px;
+	font-family: 黑体;
+	cursor: pointer;
+	position: absolute;
+	top: 14px;
+	right: 3px;
+}
+
+.process2-con .process-help {
+	height: 660px;
+	border-bottom: solid 1px #e8f6ea;
+}
+
+.process-feed-sum {
+	margin-top: 13px;
+}
+
+.process-feed-con {
+	width: 214px;
+	height: 181px;
+	padding: 18px 9px 0px 9px;
+	border-bottom: solid 1px #e8f6ea;
+	background: #fff;
+	border-radius: 4px;
+	font-family: 黑体;
+	margin-top: 13px;
+	color: #000;
+	font-size: 14px;
+}
+
+.process-feed-title {
+	font-family: "Microsoft YaHei";
+	font-size: 19px;
+}
+
+.process-feed-item {
+	font-size: 15px;
+}
+
+.process-feed-name {
+	display: inline-block;
+	width: 165px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.process-feed-item span {
+	float: right;
+}
+
+.process-feed-transform {
+	height: 32px;
+	line-height: 32px;
+	border-bottom: solid 1px #afafaf;
+	border-top: solid 1px #afafaf;
+}
+
+.process-feed-transform span {
+	float: right;
+}
+
+.process-feed-cost {
+	margin-top: 13px;
+}
+
+.process-feed-cost span {
+	float: right;
+	font-size: 16px;
+	position: relative;
+	top: -4px;
+	font-weight: bold;
+}
+
+.process-feed-button {
+	height: 29px;
+	line-height: 29px;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+	width: 100px;
+	background-position: -126px -320px;
+	margin-left: 114px;
+	margin-top: 13px;
 }
 
 /*process3*/
