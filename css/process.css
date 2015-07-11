@@ -9,6 +9,7 @@
 .process-alipay,
 .process-caricon,
 .process-dayicon,
+.process-form2-button,
 .process-3 h2 {
     background-image: url(../images/sprites.png);
     background-repeat: no-repeat;
@@ -480,6 +481,117 @@
 /*process2*/
 .process-2 .process-head {
     background-position: 0 -39px;
+}
+
+.process2-con {
+	padding-top: 29px;
+}
+
+.process2-title1 {
+	font-size: 21px;
+	font-family: "Microsoft YaHei";
+	height: 44px;
+	line-height: 44px;
+	border-bottom: solid 1px #b6b6b6;
+	padding-left: 23px;
+}
+
+.process2-form {
+	margin-top: 22px;
+	width: 105%;
+	padding-left: 25px;
+	font-family: 黑体;
+}
+
+.process-form-item {
+	display: inline-block;
+	font-size: 17px;
+	width: 199px;
+	padding-left: 95px;
+	margin-right: 41px;
+	position: relative;
+	margin-top: 17px;
+	height: 27px;
+	line-height: 27px;
+}
+
+.process-form-item span {
+	position: absolute;
+	left: 0;
+}
+
+.process-form-item input
+{
+	width: 195px;
+	height: 23px;
+	border: solid 2px #ece9e2;
+}
+
+.process-form-item select {
+	width: 199px;
+	height: 23px;
+	border: solid 2px #ece9e2;	
+}
+
+.last-process-form-item {
+	margin-left: 339px;
+}
+
+.process-form-tip {
+	margin-left: 433px;
+	margin-top: 11px;
+}
+
+.process-form2-button {
+	cursor: pointer;
+	background-position: -238px -157px;
+	width: 106px;
+	height: 26px;
+	line-height: 26px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 13px;
+}
+
+.process-bill {
+	height: 132px;
+	padding: 0 22px;
+	background: #d4eed8;
+	margin-top: 33px;
+	overflow: hidden;
+}
+
+.process-bill-title {
+	font-family: "Microsoft YaHei";
+	font-size: 21px;
+	height: 46px;
+	line-height: 46px;
+	border-bottom: solid 1px #b6b6b6;
+	margin-top: 5px;
+}
+
+.process-bill-select {
+	margin-top: 23px;
+	font-size: 15px;
+	font-family: 黑体;
+	width: 120%;
+}
+
+.process-bill-select-item {
+	display: inline-block;
+	margin-right: 32px;
+}
+
+.process-bill-select-item input {
+	width: 18px;
+	height: 18px;
+	border: solid 1px #6c6d6c;
+	vertical-align: top;
+	margin-right: 12px;
+	position: relative;
+	top: 2px;
+	background: #fff;
 }
 
 /*process3*/

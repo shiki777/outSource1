@@ -239,37 +239,32 @@
             <div class="process process-2">
                 <div class="process-head">发票信息</div>
                 <div class="process-title">支付方式及送货信息</div>
-                <div class="process-con clearfix">
+                <div class="process2-con clearfix">
                     <div class="process-left">
-                        <form action="" class="process2-form">
-                            <div class="process-form-item">地址名称*<input type="text" name="address"><label for="address"></label></div>
-                            <div class="process-form-item">省份*
-                                <select name="province" id="province">
-                                    <option value="1">浙江</option>
-                                    <option value="2">苏州</option>
-                                    <option value="3">四川</option>
+                    <div class="process2-title1">送货信息</div>
+                        <form action="" class="process2-form" id="process2-form">
+                            <div class="process-form-item"><span>地址名称*</span><input type="text" name="address" placeholder="例：家庭住址"><label for="address"></label></div>
+                            <div class="process-form-item"><span>省份*</span>
+                                <select name="province" id="province" class="province cxselect" data-value="浙江省">
                                 </select>
                             </div>
-                            <div class="process-form-item">姓名*<input type="text" name="address"><label for="address"></label></div>
-                            <div class="process-form-item">
-                                <select name="province" id="province">
-                                    <option value="1">杭州</option>
-                                    <option value="2">嘉兴</option>
-                                    <option value="3">湖州</option>
+                            <div class="process-form-item"><span>姓名*</span><input type="text" name="address"><label for="address"></label></div>
+                            <div class="process-form-item"><span>城市*</span>
+                                <select name="city" id="city" class="city cxselect" data-value="杭州市">
                                 </select>
                             </div>
-                            <div class="process-form-item">手机号码*<input type="text" name="phone"><label for="address"></label></div>
-                            <div class="process-form-item">详细地址*<input type="text" name="detail"><label for="address"></label></div>
-                            <div class="process-form-item">邮编*<input type="text" name="post"><label for="address"></label></div>
+                            <div class="process-form-item"><span>手机号码*</span><input type="text" name="phone"><label for="address"></label></div>
+                            <div class="process-form-item"><span>详细地址*</span><input type="text" name="detail"><label for="address"></label></div>
+                            <div class="process-form-item last-process-form-item"><span>邮编*</span><input type="text" name="post"><label for="address"></label></div>
                             <div class="process-form-tip">*为必填内容</div>
-                            <div class="process-form2-button" id="process-form2-button"></div>
+                            <div class="process-form2-button" id="process-form2-button">保存地址</div>
                         </form>
                         <div class="process-bill">
-                            <div class="process-bill-title"></div>
+                            <div class="process-bill-title">发票信息</div>
                             <div class="process-bill-select">
-                                <input type="radio" name="bill" id="bill">不需要发票
-                                <input type="radio" name="bill" id="bill">需要发票（寄送至送货地址）
-                                <input type="radio" name="bill" id="bill">需要发票（寄送至新地址）
+                                <div class="process-bill-select-item"><input type="radio" name="bill" id="bill">不需要发票</div>
+                                <div class="process-bill-select-item"><input type="radio" name="bill" id="bill">需要发票（寄送至送货地址）</div>
+                                <div class="process-bill-select-item"><input type="radio" name="bill" id="bill">需要发票（寄送至新地址）</div>
                             </div>
                         </div>
                         <div class="process2-pay">
@@ -345,8 +340,10 @@
     <!--脚本-->
     <script src="../scripts/jquery-1.11.3.min.js"></script>
     <script src="../scripts/jquery.validate.min.js"></script>
+    <script src="../scripts/jquery.cxselect.min.js"></script>
     <script src="../scripts/common.js"></script>
-    <script src="../scripts/process.js"></script>
+    <script src="../scripts/provincedata.js"></script>
+    <script src="../scripts/process2.js"></script>
     <!--end 脚本-->
 </body>
 
