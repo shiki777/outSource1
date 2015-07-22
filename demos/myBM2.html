@@ -251,7 +251,8 @@
 <!-- 面包屑导航 结束 -->
 <!-- 我的BM -->
 <div class="mybm2">
-    <div class="mybm2-con">
+    <div class="mybm2-con clearfix">
+    <div class="mybm2-title">我的BM</div>
         <div class="mybm2-left">
             <div class="mybm2-left-block">
                 <div class="mybm2-left-title">订单中心</div>
@@ -260,63 +261,76 @@
             </div>
             <div class="mybm2-left-block">
                 <div class="mybm2-left-title">客户服务</div>
-                <a href="#" class="mybm2-left-line mybm2-left-selected">我的优惠券</a>
+                <a href="#" class="mybm2-left-line">我的优惠券</a>
                 <a href="#" class="mybm2-left-line">退货管理</a>
             </div>
             <div class="mybm2-left-block">
                 <div class="mybm2-left-title">设置</div>
-                <a href="#" class="mybm2-left-line mybm2-left-selected">个人信息</a>
+                <a href="#" class="mybm2-left-line">个人信息</a>
                 <a href="#" class="mybm2-left-line">地址管理</a>
             </div>                        
         </div>
         <div class="mybm2-right">
-            <div class="mybm2-detail">
-                <i class="mybm2-detail-logo"></i>
-                <div class="mybm2-detail-phonenum">180372893673</div>
-                <div class="mybm2-detail-edit">编辑资料</div>
-                <div class="mybm2-detail-forpay">
-                    <i class="mybm2-detail-forpay-icon"></i>
-                    <div>待付款<span>0</span></div>
+            <div class="mybm2-right-top">
+                <div class="mybm2-detail">
+                    <i class="mybm2-detail-logo"></i>
+                    <div class="mybm2-detail-phonenum">180372893673</div>
+                    <div class="mybm2-detail-edit">编辑资料</div>
+                    <div class="mybm2-detail-forpay">
+                        <i class="mybm2-detail-forpay-icon"></i>
+                        <div>待付款<span>0</span></div>
+                    </div>
+                    <div class="mybm2-detail-transport">
+                        <i class="mybm2-detail-transport-icon"></i>
+                        <div>待收货<span>1</span></div>
+                    </div>
+                    <div class="mybm2-detail-comment">
+                        <i class="mybm2-detail-comment-icon"></i>
+                        <div>待评价<span>0</span></div>
+                    </div>                                
                 </div>
-                <div class="mybm2-detail-transport">
-                    <i class="mybm2-detail-transport-icon"></i>
-                    <div>待收货<span>1</span></div>
-                </div>
-                <div class="mybm2-detail-comment">
-                    <i class="mybm2-detail-comment-icon"></i>
-                    <div>待评价<span>0</span></div>
-                </div>                                
-            </div>
-            <div class="mybm2-sale">
-                <div class="mybm2-sale-title">我的优惠券显示列表</div>
-                <div class="mybm2-sale-con">
-                    <div class="mybm2-sale-ticket-30"></div>
-                    <div class="mybm2-sale-ticket-50"></div>
-                    <div class="mybm2-sale-ticket-100"></div>
+                <div class="mybm2-sale">
+                    <div class="mybm2-sale-title">我的优惠券显示列表</div>
+                    <div class="mybm2-sale-con">
+                        <div class="mybm2-sale-ticket-30"></div>
+                        <div class="mybm2-sale-ticket-50"></div>
+                        <div class="mybm2-sale-ticket-100"></div>
+                    </div>
                 </div>
             </div>
             <div class="mybm2-order">
                 <div class="mybm2-order-title">我的订单</div>
                 <div class="mybm2-order-detail">
-                    <div class="mybm2-order-list">
-                        <div class="mybm2-order-list-con">
+                <div class="mybm2-order-detail-title">订单：765267282929</div>
+                <div class="mybm2-order-list">
+                    <div class="mybm2-order-list-left-arrow"></div>
+                    <div class="mybm2-order-list-right-arrow"></div>
+                    <div class="mybm2-order-list-con">
+                        <div class="mybm2-order-list-wrap">
                             <div class="mybm2-order-list-item">
                                 <img src="../images/process-thumb.png">
                                 <div class="mybm2-order-list-item-name">碧妮莱戴维面膜1</div>
                                 <div class="mybm2-order-list-item-detail">100ml</div>
                             </div>
+                            <div class="mybm2-order-list-item">
                                 <img src="../images/process-thumb.png">
                                 <div class="mybm2-order-list-item-name">碧妮莱戴维面膜2</div>
                                 <div class="mybm2-order-list-item-detail">100ml</div>
                             </div>
+                            <div class="mybm2-order-list-item">
                                 <img src="../images/process-thumb.png">
                                 <div class="mybm2-order-list-item-name">碧妮莱戴维面膜3</div>
                                 <div class="mybm2-order-list-item-detail">100ml</div>
-                            </div>                                                        
+                            </div> 
+                            <div class="mybm2-order-list-item">
+                                <img src="../images/process-thumb.png">
+                                <div class="mybm2-order-list-item-name">碧妮莱戴维面膜4</div>
+                                <div class="mybm2-order-list-item-detail">100ml</div>
+                            </div>                             
                         </div>
                     </div>
-                    <div class="mybm2-order-history">您购买过的商品会出现在这里</div>
                 </div>
+                <div class="mybm2-order-history">您购买过的商品会出现在这里</div>
             </div>
         </div>
     </div>
@@ -340,6 +354,7 @@
 <script src="../scripts/jquery-1.11.3.min.js"></script>
 <script src="../scripts/jquery.validate.min.js"></script>
 <script src="../scripts/common.js"></script>
+<script src="../scripts/mybm2.js"></script>
 <!--end 脚本-->
 </body>
 
