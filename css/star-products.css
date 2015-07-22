@@ -35,6 +35,17 @@
     float: left;
     text-align: center;
     margin-left: 148px;
+    position: relative;
+    padding-top: 5px;
+}
+
+.products .new-ico{
+    position: absolute;
+    width: 45px;
+    height: 66px;
+    background:url(../images/sprites.png) -1px -368px;
+    top: 0;
+    left: -25px;
 }
 
 .products .picture {

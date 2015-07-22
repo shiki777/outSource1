@@ -1,0 +1,149 @@
+/**
+ * 关于BM
+ */
+
+.main h1 {
+    font-size: 20px;
+    margin: 17px 0 10px;
+    font-weight: bold;
+}
+
+.main .description {
+    padding: 30px 30px 4px;
+    background: #d4eed8;
+    border-radius: 8px;
+    margin-bottom: 65px;
+}
+
+.main .description .section {
+    margin-bottom: 54px;
+}
+
+.main .description h2 {
+    font-size: 20px;
+    padding-bottom: 9px;
+    border-bottom: solid 1px #afafaf;
+    margin-bottom: 33px;
+    font-weight: bold;
+}
+
+.main .description p {
+    font: 18px/24px '黑体';
+    color: #7d7d7d;
+    margin: 0 20px 24px 17px;
+}
+
+.main .description .mail {
+    font-family: 'Arial';
+}
+
+.main .description a {
+    color: #000;
+}
+
+/*帮助中心*/
+.help-nav {
+    float: left;
+}
+
+.main .help-nav a {
+    display: block;
+    color: #7d7d7d;
+    font-size: 20px;
+    padding-bottom: 14px;
+    margin-bottom: 17px;
+    width: 142px;
+    text-align: center;
+    border-bottom: solid 1px #afafaf;
+}
+
+.main .help-nav a.active, .main .help-nav a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.help-content {
+    margin-left: 242px;
+    padding-bottom: 30px;
+}
+
+.help-content .help-content-item {
+    display: none;
+}
+
+.help-content .active {
+    display: block;
+}
+
+.main .help-content h2 {
+    border: 0 none;
+    margin-bottom: 20px;
+}
+
+.main .help-content h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: '黑体';
+    font-weight: bold;
+}
+
+.main .help-content p {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*选择碧妮莱的理由*/
+.advantage {
+    padding-bottom: 10px;
+}
+
+.advantage h3 {
+    font-size: 18px;
+    padding: 0 0 7px 8px;
+    border-bottom: solid 1px #d6d6d6;
+    margin-bottom: 31px;
+}
+
+.advantage ul {
+    overflow: hidden;
+}
+
+.advantage li {
+    width: 164px;
+    float: left;
+    text-align: center;
+}
+
+.advantage i {
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-image: url(../images/advantage.png);
+    background-repeat: no-repeat;
+    margin: 0 auto 9px;
+}
+
+.advantage span {
+    font-size: 14px;
+    color: #545454;
+}
+
+.rich-gifts i {
+    background-position: -70px 0;
+}
+
+.multi-payment i {
+    background-position: -140px 0;
+}
+
+.official-genuine i {
+    background-position: -210px 0;
+}
+
+.free-postage i {
+    background-position: -280px 0;
+}
+
+.integral-sharing i {
+    background-position: -350px 0;
+}
