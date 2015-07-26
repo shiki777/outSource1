@@ -254,7 +254,7 @@
 <!-- 面包屑导航 结束 -->
 <!-- 我的BM -->
 <div class="mybm">
-    <div class="mybm-con mybm-address clearfix">
+    <div class="mybm-con mybm-pravite clearfix">
         <div class="mybm-left">
             <div class="mybm-left-block">
                 <div class="mybm-left-title">订单中心</div>
@@ -272,10 +272,10 @@
                 <a href="#" class="mybm-left-line">地址管理</a>
             </div>                        
         </div>
-        <div class="mybm-right">
+        <div class="mybm-right mybm-pravite-right">
             <div class="pravite-title">个人信息</div>
             <div class="pravite-tip">亲爱的180372893673，请填写真实的资料，方便我们为您提供更好的服务。</div>
-            <form action="#" id="pravite-form">
+            <form action="#" id="pravite-form" class="pravite-form">
                 <div class="pravite-line2">
                     <span class="pravite-line-title">当前头像：</span> 
                     <input type="text" name="avatar" id="avatar"/>
@@ -294,8 +294,8 @@
                 </div>  
                 <div class="pravite-line1">
                     <span class="pravite-line-title"><span class="pravite-need">*</span>性别：</span> 
-                    <input type="checkbox" name="sex">男
-                    <input type="checkbox" name="sex">女
+                    <input type="radio" name="sex">男
+                    <input type="radio" name="sex">女
                     <label class="error" id="sex-error" for="sex"></label>
                 </div>  
                 <div class="pravite-line1">
@@ -325,7 +325,7 @@
                 </div>      
                 <div class="pravite-line1">
                     <span class="pravite-line-title">居住地：</span> 
-                    <select name="currentadd1">
+                    <select name="currentadd1" style="width:150px;">
                     </select>
                     <select name="currentadd2">
                     </select>
@@ -335,7 +335,7 @@
                 </div> 
                 <div class="pravite-line1">
                     <span class="pravite-line-title">家乡：</span> 
-                    <select name="defaultadd1">
+                    <select name="defaultadd1" style="width:150px;">
                     </select>
                     <select name="defaultadd2">
                     </select>
@@ -343,7 +343,7 @@
                     </select>                                        
                     <label class="error" id="defaultadd1-error" for="defaultadd1"></label>
                 </div>     
-                <div class="pravite-form-submit" id="pravite-form-submit"></div>                                        
+                <div class="pravite-form-submit" id="pravite-form-submit">保存</div>                                        
             </form>
         </div>
     </div>

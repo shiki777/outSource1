@@ -1,3 +1,81 @@
 .mybm-pravite {
 	margin-top: 25px;
 }
+
+.mybm-pravite-right {
+	width: 809px;
+	margin-left: 35px;
+}
+
+.pravite-title {
+	font-size: 19px;
+	font-family: "Microsoft YaHei";
+	margin-bottom: 10px;
+}
+
+.pravite-tip {
+	font-size: 15px;
+	font-family: 黑体;
+	margin-bottom: 30px;
+}
+
+.pravite-line1,
+.pravite-line2 {
+	position: relative;
+	padding-left: 84px;
+	margin-bottom: 17px;
+	vertical-align: middle;
+}
+
+.pravite-line-title {
+	position: absolute;
+	left: 0;
+	font-family: 黑体;
+	font-size: 17px;
+}
+
+.pravite-need {
+	position: absolute;
+	top: -3px;
+	left: -8px;
+	color: #f39800;
+}
+
+.pravite-form input {
+	border: solid #ece9e2 2px;
+	height: 23px;
+	line-height: 23px;
+	width: 195px;
+}
+
+.pravite-form select {
+	border: solid 1px #d7d7d7;
+	border-radius: 5px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;	
+	width: 54px;
+}
+
+input[type=radio] {
+	width: 17px;
+	height: 17px;
+	border: solid 1px #a0a0a0;
+	position: relative;
+	top: 3px;
+	margin-right: 11px;
+}
+
+.pravite-form-submit {
+	background: url(../../images/sprites.png);
+	background-position: -1px -162px;
+	width: 93px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 17px;
+	font-family: "Microsoft YaHei";
+	margin-top: 40px;
+}
