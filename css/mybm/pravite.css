@@ -60,7 +60,6 @@
 input[type=radio] {
 	width: 17px;
 	height: 17px;
-	border: solid 1px #a0a0a0;
 	position: relative;
 	top: 3px;
 	margin-right: 11px;
@@ -99,6 +98,7 @@ input[type=radio] {
 	font-family: 黑体;
 	font-size: 15px;
 	cursor: pointer;
+	color: #808080;
 }
 
 .pravite-line2 .pravite-line-title {
