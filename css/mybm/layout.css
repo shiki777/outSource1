@@ -1,0 +1,97 @@
+/**
+ * 我的BM
+ */
+
+/*左侧主导航*/
+.mybm-detail-logo,
+.mybm-detail-forpay-icon,
+.mybm-detail-transport-icon,
+.mybm-detail-comment-icon,
+.mybm-sale-ticket-30,
+.mybm-sale-ticket-50,
+.mybm-sale-ticket-100,
+.mybm-order-list-left-arrow,
+.mybm-order-list-right-arrow {
+    background: url(../../images/sprites.png) no-repeat;
+}
+
+.mybm {
+    margin: 10px 57px;
+    margin-bottom: 91px;
+}
+
+.mybm-title {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.mybm-left {
+    float: left;
+    height: 378px;
+    width: 119px;
+    padding-left: 22px;
+    background: #d4eed8;
+    border-radius: 7px;
+    border-bottom: solid 1px #e8f6ea;
+}
+
+.mybm-left-block {
+    margin-top: 30px;
+    font-family: '黑体';
+    font-size: 17px;
+}
+
+.mybm-left-title {
+    font-size: 19px;
+    font-family: "Microsoft YaHei";
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.mybm-left-line {
+    display: block;
+    cursor: pointer;
+    color: #7a7e7a;
+}
+
+.mybm-left-selected {
+    color: #000;
+}
+
+/*右侧主内容区*/
+.mybm-right {
+    float: right;
+    width: 809px;
+}
+
+.mybm-right h2 {
+    font-size: 18.75px;
+    line-height: 1;
+    margin-bottom: 23px;
+}
+
+/*订单查询表单*/
+.order-search-form * {
+    vertical-align: middle;
+    height: 25px;
+    line-height: 25px;
+}
+
+.order-search-form input {
+    border: solid 1px #bebebe;
+    padding: 0 10px;
+    width: 156px;
+    margin-right: 24px;
+    color: #939393;
+    font-size: 14.58px;
+}
+
+.order-search-form button {
+    width: 60px;
+    padding: 0;
+    font-size: 18.65px;
+    border: solid 1px #afabaa;
+    border-radius: 12px;
+    background: #fff;
+    cursor: pointer;
+}

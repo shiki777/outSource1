@@ -1,0 +1,30 @@
+/**
+ * 支付跳转页
+ */
+
+.tips {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -115px;
+    width: 100%;
+}
+
+.tips i {
+    display: inline-block;
+    width: 94px;
+    height: 94px;
+    background: url(../images/sprites.png) -238px -185px;
+    margin-bottom: 45px;
+}
+
+.tips h2 {
+    font-size: 38px;
+    color: #60ae84;
+}
+
+.tips p {
+    font-size: 21px;
+    color: #515151;
+}

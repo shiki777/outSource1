@@ -1,0 +1,12 @@
+.coupon-list{
+    overflow: hidden;
+    width: 110%;
+    margin-left: -5px;
+}
+
+.coupon-list li{
+    float: left;
+    width: 278px;
+    height: 155px;
+    margin:0 0 7px -4px;
+}

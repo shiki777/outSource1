@@ -1,0 +1,53 @@
+/**
+ * 我的订单
+ */
+
+.mybm-right h2 {
+    margin-bottom: 10px;
+}
+
+.order-search-form {
+    margin-bottom: 11px;
+}
+
+.order-search-result {
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.order-search-result .count {
+    font: 14.58px '黑体';
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+
+.order-search-result .count em {
+    color: #fcbf1d;
+}
+
+/*数据表格*/
+.dt {
+    width: 100%;
+    text-align: center;
+    font: 14.58px '黑体';
+}
+
+.dt th {
+    background: #d4eed8;
+    text-align: center;
+    height: 32px;
+}
+
+.dt tbody tr {
+    border-bottom: solid 1px #d4cfcf;
+}
+
+.dt tbody td {
+    height: 38px;
+
+}
+
+.dt  a {
+    color: #60b085;
+}
