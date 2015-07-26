@@ -272,14 +272,14 @@
                 <a href="#" class="mybm-left-line mybm-left-selected">地址管理</a>
             </div>                        
         </div>
-        <div class="mybm-right">
+        <div class="mybm-right mybm-address-right">
             <div class="address-title">地址管理</div>
             <div class="address-tip"><span class="address-tip-title">新增收货地址</span>电话号码、手机号选填一项,其余均为必填项</div>        
-            <form action="#" id="address-form">
-                <div class="address-line"><span class="address-line-title"><span class="address-need">*</span>所在地区：</span> <select name="country" id="country"></select><select name="province" id="province"></select>
+            <form action="#" id="address-form" class="address-form">
+                <div class="address-line"><span class="address-line-title"><span class="address-need">*</span>所在地区：</span> <select name="country" id="country" style="width:120px;margin-right:4px;"></select><select name="province" id="province" style="width:231px"></select>
                     <label class="error" id="country-error" for="country"></label>
                 </div>
-                <div class="address-line2"><span class="address-line-title"><span class="address-need">*</span>详细地址：</span> <input type="text" name="address" id="address" placeholder="建议您如实填写详细收货地址，如街道名称，门牌号码，楼层及房间号等信息">
+                <div class="address-line2"><span class="address-line-title"><span class="address-need">*</span>详细地址：</span> <textarea type="text" name="address" id="address" placeholder="建议您如实填写详细收货地址，如街道名称，门牌号码，楼层及房间号等信息"></textarea>
                     <label class="error" id="address-error" for="address"></label>
                 </div>
                 <div class="address-line">
@@ -301,14 +301,14 @@
                     <input type="text" name="phone" id="phone" placeholder="电话号码、手机号码必须填写一项">
                      <label class="error" id="phone-error" for="phone"></label>
                 </div>
-                <div class="address-line">
+                <div class="address-line addresss-line-call">
                     <span class="address-line-title">电话号码：</span>
                     <select name="phonesel" id="phonesel">
                         <option value="1">中国大陆 +86</option>
                         <option value="1">中国大陆1 +86</option>
                     </select>                    
-                    <input type="text" name="call1" id="call1">-
-                    <input type="text" name="call2" id="call2">-
+                    <input type="text" name="call1" id="call1"><span class="call-split">-</span>
+                    <input type="text" name="call2" id="call2"><span class="call-split">-</span>
                     <input type="text" name="call3" id="call3">
                      <label class="error" id="call-error" for="call1"></label>
                 </div>    
