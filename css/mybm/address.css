@@ -168,8 +168,18 @@ input[type=checkbox] {
 
 .defalut-button {
 	background-position: -54px -369px;
+	cursor: default;
 }
 
 .address-list-update {
 	text-align: center;
+}
+
+.error {
+	color: red;
+}
+
+.address-table textarea {
+	width: 100%;
+	height: 60px;
 }

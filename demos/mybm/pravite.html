@@ -278,9 +278,8 @@
             <form action="#" id="pravite-form" class="pravite-form">
                 <div class="pravite-line2">
                     <span class="pravite-line-title">当前头像：</span> 
-                    <input type="text" name="avatar" id="avatar" class="avatar"/>
                     <img class="avatar-con" src="../../images/resource/avatar.png"></img>
-                    <div id="edit-avatar" class="edit-avatar">编辑头像</div>
+                    <div id="edit-avatar" class="edit-avatar">编辑头像<input class="avatar-file" type="file" name="file1"/></div>
                     <label class="error" id="avatar-error" for="avatar"></label>
                 </div>         
                 <div class="pravite-line1">
@@ -326,21 +325,21 @@
                 </div>      
                 <div class="pravite-line1">
                     <span class="pravite-line-title">居住地：</span> 
-                    <select name="currentadd1" style="width:150px;">
+                    <select name="currentadd1" class="currentadd1 cxselect" data-value="浙江省" style="width:150px;">
                     </select>
-                    <select name="currentadd2">
+                    <select name="currentadd2" class="currentadd2 cxselect" data-value="杭州市">
                     </select>
-                    <select name="currentadd3">
+                    <select name="currentadd3" class="currentadd3 cxselect" data-value="西湖区">
                     </select>                                        
                     <label class="error" id="currentadd1-error" for="currentadd1"></label>
                 </div> 
                 <div class="pravite-line1">
                     <span class="pravite-line-title">家乡：</span> 
-                    <select name="defaultadd1" style="width:150px;">
+                    <select name="defaultadd1" class="defaultadd1 cxselect" data-value="浙江省" style="width:150px;">
                     </select>
-                    <select name="defaultadd2">
+                    <select name="defaultadd2" class="defaultadd2 cxselect" data-value="杭州市">
                     </select>
-                    <select name="defaultadd3">
+                    <select name="defaultadd3" class="defaultadd3 cxselect" data-value="西湖区">
                     </select>                                        
                     <label class="error" id="defaultadd1-error" for="defaultadd1"></label>
                 </div>     
@@ -367,7 +366,10 @@
 <!--脚本-->
 <script src="../../scripts/jquery-1.11.3.min.js"></script>
 <script src="../../scripts/jquery.validate.min.js"></script>
+<script src="../../scripts/jquery.cxselect.min.js"></script>
+ <script src="../../scripts/provincedata.js"></script>
 <script src="../../scripts/common.js"></script>
+<script src="../../scripts/mybm/private.js"></script>
 <!--end 脚本-->
 </body>
 

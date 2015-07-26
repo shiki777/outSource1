@@ -276,7 +276,8 @@
             <div class="address-title">地址管理</div>
             <div class="address-tip"><span class="address-tip-title">新增收货地址</span>电话号码、手机号选填一项,其余均为必填项</div>        
             <form action="#" id="address-form" class="address-form">
-                <div class="address-line"><span class="address-line-title"><span class="address-need">*</span>所在地区：</span> <select name="country" id="country" style="width:120px;margin-right:4px;"></select><select name="province" id="province" style="width:231px"></select>
+                <div class="address-line"><span class="address-line-title"><span class="address-need">*</span>所在地区：</span> <select data-first-title="请选择国家" name="country" id="country" class="cxselect country" style="width:120px;margin-right:4px;"></select><select data-first-title="请选择省市区" name="province" id="province" class="cxselect province" style="width:231px">
+                </select>
                     <label class="error" id="country-error" for="country"></label>
                 </div>
                 <div class="address-line2"><span class="address-line-title"><span class="address-need">*</span>详细地址：</span> <textarea type="text" name="address" id="address" placeholder="建议您如实填写详细收货地址，如街道名称，门牌号码，楼层及房间号等信息"></textarea>
@@ -289,8 +290,8 @@
                 </div>
                 <div class="address-line">
                     <span class="address-line-title"><span class="address-need">*</span>收货人姓名：</span>
-                    <input type="text" name="post" id="post" placeholder="长度不超过25个字符">
-                     <label class="error" id="post-error" for="post"></label>
+                    <input type="text" name="name" id="name" placeholder="长度不超过25个字符">
+                     <label class="error" id="name-error" for="name"></label>
                 </div>
                 <div class="address-line">
                     <span class="address-line-title">手机号码：</span>
@@ -325,8 +326,8 @@
                         <th width="75">收货人</th>
                         <th width="201">所在地区</th>
                         <th width="201">详细地址</th>
-                        <th width="75">邮编</th>
-                        <th width="75">电话/手机</th>
+                        <th width="65">邮编</th>
+                        <th width="85">电话/手机</th>
                         <th width="85">操作</th>
                         <th width="94"></th>
                     </tr>
@@ -335,7 +336,7 @@
                         <td>中国</td>
                         <td>123</td>
                         <td>314001</td>
-                        <td>10086</td>
+                        <td>1008100866</td>
                         <td class="address-list-edit"><span class="update">修改</span>|<span class="delete">删除</span></td>
                         <td><div class="address-list-button defalut-button"></div></td>
                     </tr>
@@ -380,7 +381,10 @@
 <!--脚本-->
 <script src="../../scripts/jquery-1.11.3.min.js"></script>
 <script src="../../scripts/jquery.validate.min.js"></script>
+<script src="../../scripts/jquery.cxselect.min.js"></script>
 <script src="../../scripts/common.js"></script>
+<script src="../../scripts/countryData.js"></script>
+<script src="../../scripts/mybm/address.js"></script>
 <!--end 脚本-->
 </body>
 
